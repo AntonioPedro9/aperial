@@ -276,7 +276,6 @@ img {
         -moz-transition: all 0.2s;
             -o-transition: all 0.2s;
                 transition: all 0.2s;
-    margin: 4px;S
 }
 .btn:active {
 	-webkit-transform: scale(0.96);
