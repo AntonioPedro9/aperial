@@ -12,8 +12,6 @@ body {
 
 	color: #444;
 	background-color: #F1F1F1;
-
-	height: 100vh;
 	
 	margin: 0px;
 }
@@ -278,6 +276,7 @@ img {
         -moz-transition: all 0.2s;
             -o-transition: all 0.2s;
                 transition: all 0.2s;
+    margin: 4px;S
 }
 .btn:active {
 	-webkit-transform: scale(0.96);
@@ -300,13 +299,21 @@ audio {
 
 
 
+.theme_dark {
+	color: #FFF;
+	background-color: rgb(32, 32, 32);
+}
 .theme_light {
 	color: #444;
 	background-color: rgb(255, 255, 255);
 }
-.theme_dark {
+.theme_teal {
 	color: #FFF;
-	background-color: rgb(32, 32, 32);
+	background-color: rgb(0, 150, 136);
+}
+.theme_lime {
+	color: #444;
+	background-color: rgb(205, 220, 57);
 }
 .theme_blue {
 	color: #FFF;
@@ -315,10 +322,6 @@ audio {
 .theme_cyan {
 	color: #444;
 	background-color: rgb(24, 255, 255);
-}
-.theme_lime {
-	color: #444;
-	background-color: rgb(205, 220, 57);
 }
 .theme_orange {
 	color: #FFF;
@@ -346,20 +349,23 @@ audio {
 
 
 
+.text_dark {
+	color: rgb(64, 64, 64);
+}
 .text_light {
 	color: rgb(255, 255, 255);
 }
-.text_dark {
-	color: rgb(64, 64, 64);
+.text_teal {
+	color: rgb(0, 150, 136);
+}
+.text_lime {
+	color: rgb(205, 220, 57);
 }
 .text_blue {
 	color: rgb(33, 150, 243);
 }
 .text_cyan {
 	color: rgb(24, 255, 255);
-}
-.text_lime {
-	color: rgb(205, 220, 57);
 }
 .text_orange {
 	color: rgb(255, 87, 34);
