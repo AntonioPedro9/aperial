@@ -278,10 +278,10 @@ img {
                 transition: all 0.2s;
 }
 .btn:active {
-	-webkit-transform: scale(0.96);
-        -moz-transform: scale(0.96);
-            -o-transform: scale(0.96);
-                transform: scale(0.96);
+	-webkit-transform: scale(0.92);
+        -moz-transform: scale(0.92);
+            -o-transform: scale(0.92);
+                transform: scale(0.92);
 }
 audio {
 	border-radius: 2px; 
