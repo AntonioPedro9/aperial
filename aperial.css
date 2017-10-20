@@ -13,6 +13,7 @@ body {
 	color: #444;
 	background-color: #F1F1F1;
 	
+	min-height: 100vh;
 	margin: 0px;
 }
 h1, h2, h3, h4, h5, h6 {
