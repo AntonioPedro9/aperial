@@ -12,7 +12,7 @@ body {
 
 	color: #444;
 	background-color: #F1F1F1;
-
+	
 	margin: 0px;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -21,21 +21,13 @@ h1, h2, h3, h4, h5, h6 {
 p {
 	margin: 16px;
 }
-.justify {
-	text-align: justify;
-}
 a {
 	text-decoration: none;
 	color: currentColor;
+	cursor: pointer;
 }
-.right {
-	text-align: right;
-}
-.left {
-	text-align: left;
-}
-.inline {
-	display: inline-block;
+label {
+	padding: 8px 8px 8px 0px;
 }
 
 
@@ -48,32 +40,88 @@ a {
 
 
 header {
-	font-size: 1.6em;
+	font-size: 1.4em;
+
+	grid-area: header;
+
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
+
 	padding: 8px;
 }
-nav, article, section, content {
-	display: inline-block;
+nav {
+	font-size: 1.2em;
+
+	grid-area: nav;
+
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.24);
+
+	padding: 8px 0px;
 }
-.ap_card {
-	font-size: 1em;
+.grid nav a {
+    display: block;
+}
+@media screen and (max-width: 736px) {
+    nav {
+      	padding: 0px;
+    }
+    .grid nav a {
+        display: inline-block;
+    }      
+}
+nav a {
+	font-weight: bold;
+	padding: 8px 16px;
+	margin: 0px;
+}
+content {
+	display: inline-block;
+	
+	grid-area: content;
+
+	padding: 8px;
+}
+.card {
+	display: inline-block;
 
 	color: #444;
 	background-color: #FFF;
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
-	border-radius: 2px;
 
 	padding: 8px;
-	margin: 16px;
+	margin: 8px;
 }
-.ghost_card {
-	font-size: 1em;
+.ghost-card {
+	display: inline-block;
 
 	padding: 8px;
-	margin: 16px;
+	margin: 16px 8px;
+}
+footer {
+	grid-area: footer;
+
+	color: #FFF;
+	background-color: #222;
+	box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.24);
+
+	padding: 8px;
+}
+ul {
+	font-weight: bold;
+	text-align: left;
+	list-style: none;
+
+	padding: 8px 0px;
+	margin: -8px;
+}
+li {
+	-webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+            -o-transition: all 0.2s;
+                transition: all 0.2s;
+
+	padding: 0px 8px;
 }
 table {
-	font-size: 1em;
 	display: inline-block;
 
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
@@ -87,34 +135,7 @@ th, td {
 	border: 1px solid #888;
 	padding: 8px;
 }
-ul {
-	font-weight: bold;
-	text-align: left;
-	list-style: none;
 
-	padding: 0px;
-	margin: 0px -8px;
-}
-li {
-	font-weight: bold;
-
-	-webkit-transition: all 0.2s;
-        -moz-transition: all 0.2s;
-            -o-transition: all 0.2s;
-                transition: all 0.2s;
-	opacity: 1.0;
-
-	padding: 8px 16px;
-}
-footer {
-	font-size: 1em;
-
-	color: #FFF;
-	background-color: #222;
-	box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.24);
-
-	padding: 8px;
-}
 
 
 
@@ -131,7 +152,6 @@ button, input[type="submit"] {
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
 	border: none;
 	border-radius: 2px;
-	line-height: 36px;
 
 	cursor: pointer;
 	user-select: none;
@@ -163,7 +183,6 @@ button:active, input[type="submit"]:active {
 	height: 56px;
 }
 form {
-	font-size: 1em;
 	font-weight: bold;
 }
 input[type="text"],
@@ -206,7 +225,7 @@ input[type="checkbox"], input[type="radio"] {
 	width: 16px;
 	height: 16px;
 	margin: 8px;
-	margin-left: 8px;
+	margin-right: 8px;
 }
 input[type="file"] {
 	font-size: 0px;
@@ -298,43 +317,43 @@ audio {
 
 
 
-.theme_dark {
+.theme-dark {
 	color: #FFF;
 	background-color: rgb(32, 32, 32);
 }
-.theme_light {
+.theme-light {
 	color: #444;
 	background-color: rgb(255, 255, 255);
 }
-.theme_teal {
+.theme-teal {
 	color: #FFF;
 	background-color: rgb(0, 150, 136);
 }
-.theme_lime {
+.theme-lime {
 	color: #444;
 	background-color: rgb(205, 220, 57);
 }
-.theme_blue {
+.theme-blue {
 	color: #FFF;
 	background-color: rgb(33, 150, 243);
 }
-.theme_cyan {
+.theme-cyan {
 	color: #444;
 	background-color: rgb(24, 255, 255);
 }
-.theme_orange {
+.theme-orange {
 	color: #FFF;
 	background-color: rgb(255, 87, 34);
 }
-.theme_yellow {
+.theme-yellow {
 	color: #444;
 	background-color: rgb(255, 235, 59);
 }
-.theme_purple {
+.theme-purple {
 	color: #FFF;
 	background-color: rgb(103, 58, 183);
 }
-.theme_pink {
+.theme-pink {
 	color: #FFF;
 	background-color: rgb(233, 30, 99);
 }
@@ -348,36 +367,47 @@ audio {
 
 
 
-.text_dark {
+.text-dark {
 	color: rgb(64, 64, 64);
 }
-.text_light {
+.text-light {
 	color: rgb(255, 255, 255);
 }
-.text_teal {
+.text-teal {
 	color: rgb(0, 150, 136);
 }
-.text_lime {
+.text-lime {
 	color: rgb(205, 220, 57);
 }
-.text_blue {
+.text-blue {
 	color: rgb(33, 150, 243);
 }
-.text_cyan {
+.text-cyan {
 	color: rgb(24, 255, 255);
 }
-.text_orange {
+.text-orange {
 	color: rgb(255, 87, 34);
 }
-.text_yellow {
+.text-yellow {
 	color: rgb(255, 235, 59);
 }
-.text_purple {
+.text-purple {
 	color: rgb(103, 58, 183);
 }
-.text_pink {
+.text-pink {
 	color: rgb(233, 30, 99);
 }
+
+
+
+
+
+
+
+
+
+
+
 
 ==============================
 ==============================
