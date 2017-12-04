@@ -10,7 +10,7 @@ body {
 	font-size: 16px;
 	text-align: center;
 
-	color: #444;
+	color: rgb(64, 64, 64);
 	background-color: #F1F1F1;
 	
 	margin: 0px;
@@ -19,6 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 8px;
 }
 p {
+	text-align: justify;
 	margin: 16px;
 }
 a {
@@ -51,6 +52,8 @@ header {
 nav {
 	font-size: 1.2em;
 
+	text-align: left;
+
 	grid-area: nav;
 
 	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.24);
@@ -78,7 +81,7 @@ content {
 	
 	grid-area: content;
 
-	padding: 8px;
+	padding: 16px;
 }
 .card {
 	display: inline-block;
@@ -88,13 +91,13 @@ content {
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
 
 	padding: 8px;
-	margin: 8px;
+	margin: 16px;
 }
 .ghost-card {
 	display: inline-block;
 
 	padding: 8px;
-	margin: 16px 8px;
+	margin: 16px;
 }
 footer {
 	grid-area: footer;
@@ -119,7 +122,7 @@ li {
             -o-transition: all 0.2s;
                 transition: all 0.2s;
 
-	padding: 0px 8px;
+	padding: 8px 16px;
 }
 table {
 	display: inline-block;
@@ -187,6 +190,7 @@ form {
 }
 input[type="text"],
 input[type="number"],
+input[type="email"],
 input[type="password"],
 input[type="date"] {
 	font-size: 16px;
@@ -209,6 +213,7 @@ input[type="date"] {
 }
 input[type="text"]:focus,
 input[type="number"]:focus,
+input[type="email"]:focus,
 input[type="password"]:focus,
 input[type="text"]:focus {
 	border-bottom: 2px solid currentColor;
@@ -224,8 +229,7 @@ input[type="checkbox"], input[type="radio"] {
 
 	width: 16px;
 	height: 16px;
-	margin: 8px;
-	margin-right: 8px;
+	margin: 8px 8px 8px 0px;
 }
 input[type="file"] {
 	font-size: 0px;
