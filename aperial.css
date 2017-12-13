@@ -208,6 +208,7 @@ input[type="date"] {
                 transition: all 0.2s;
 	outline: none;
 
+	width: 213px;
 	padding: 4px 0px;
 	margin: 8px;
 }
@@ -221,6 +222,27 @@ input[type="text"]:focus {
 ::-webkit-input-placeholder {
    color: currentColor;
    opacity: 0.8;
+}
+textarea {
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: bold;
+
+	color: currentColor;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid currentColor;
+	border-radius: 0px;
+
+	-webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+            -o-transition: all 0.2s;
+                transition: all 0.2s;
+	outline: none;
+
+	width: 213px;
+	padding: 4px 0px;
+	margin: 8px;
 }
 input[type="checkbox"], input[type="radio"] {
 	box-shadow: none;
