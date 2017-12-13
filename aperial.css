@@ -219,10 +219,6 @@ input[type="password"]:focus,
 input[type="text"]:focus {
 	border-bottom: 2px solid currentColor;
 }
-::-webkit-input-placeholder {
-   color: currentColor;
-   opacity: 0.8;
-}
 textarea {
 	font-family: Arial;
 	font-size: 16px;
@@ -243,6 +239,13 @@ textarea {
 	width: 213px;
 	padding: 4px 0px;
 	margin: 8px;
+}
+textarea:focus {
+	border-bottom: 2px solid currentColor;
+}
+::-webkit-input-placeholder {
+   color: currentColor;
+   opacity: 0.8;
 }
 input[type="checkbox"], input[type="radio"] {
 	box-shadow: none;
