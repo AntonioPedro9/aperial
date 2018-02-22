@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 p {
 	text-align: justify;
-	margin: 16px;
+	margin: 16px 8px;
 }
 a {
 	text-decoration: none;
@@ -52,27 +52,17 @@ header {
 nav {
 	font-size: 1.2em;
 
-	text-align: left;
-
 	grid-area: nav;
 
 	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.24);
 
-	padding: 8px 0px;
-}
-.grid nav a {
-    display: block;
-}
-@media screen and (max-width: 736px) {
-    nav {
-      	padding: 0px;
-    }
-    .grid nav a {
-        display: inline-block;
-    }      
+	padding: 0px;
 }
 nav a {
 	font-weight: bold;
+
+	display: inline-block;
+
 	padding: 8px 16px;
 	margin: 0px;
 }
