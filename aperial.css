@@ -96,6 +96,7 @@ ol {
 	text-align: left;
 
 	padding: 8px 0px;
+	padding-inline-start: 32px;
 	margin: -8px;
 }
 ol li {
@@ -107,7 +108,6 @@ ul {
 	list-style: none;
 
 	padding: 8px 0px;
-	padding-inline-start: 32px;
 	margin: -8px;
 }
 li {
