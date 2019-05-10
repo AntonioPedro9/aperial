@@ -98,12 +98,16 @@ ol {
 	padding: 8px 0px;
 	margin: -8px;
 }
+ol li {
+	padding-left: 0px;
+}
 ul {
 	font-weight: bold;
 	text-align: left;
 	list-style: none;
 
 	padding: 8px 0px;
+	padding-inline-start: 32px;
 	margin: -8px;
 }
 li {
