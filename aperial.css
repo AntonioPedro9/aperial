@@ -91,7 +91,7 @@ footer {
 
 	padding: 8px;
 }
-ul {
+ul, ol {
 	font-weight: bold;
 	text-align: left;
 	list-style: none;
