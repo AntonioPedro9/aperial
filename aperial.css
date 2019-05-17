@@ -116,9 +116,10 @@ ul {
 }
 li {
 	-webkit-transition: all 0.2s;
-		-moz-transition: all 0.2s;
-			-o-transition: all 0.2s;
-				transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
 
 	padding: 8px 16px;
 }
@@ -159,11 +160,19 @@ button, input[type="submit"] {
 	border-radius: 2px;
 
 	cursor: pointer;
-	user-select: none;
+	
+	-webkit-user-select: none;
+	-ms-user-select: none;
+        -moz-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+	
 	-webkit-transition: all 0.2s;
-        	-moz-transition: all 0.2s;
-            		-o-transition: all 0.2s;
-                		transition: all 0.2s;
+        -moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s;
+	
 	outline: none;
 
 	min-width: 56px;
@@ -173,9 +182,11 @@ button, input[type="submit"] {
 }
 button:active, input[type="submit"]:active {
 	-webkit-transform: scale(0.96);
-        	-moz-transform: scale(0.96);
-            		-o-transform: scale(0.96);
-                		transform: scale(0.96);
+        -moz-transform: scale(0.96);
+	-ms-transform: scale(0.96);
+        -o-transform: scale(0.96);
+        transform: scale(0.96);
+	
 	box-shadow: none;
 }
 button img {
@@ -212,9 +223,11 @@ input[type="date"] {
 	border-radius: 0px;
 
 	-webkit-transition: all 0.2s;
-        	-moz-transition: all 0.2s;
-            		-o-transition: all 0.2s;
-                		transition: all 0.2s;
+        -moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s;
+	
 	outline: none;
 
 	width: 213px;
@@ -240,9 +253,11 @@ textarea {
 	border-radius: 0px;
 
 	-webkit-transition: all 0.2s;
-        	-moz-transition: all 0.2s;
-            		-o-transition: all 0.2s;
-                		transition: all 0.2s;
+        -moz-transition: all 0.2s;
+	-ms-transition all 0.2s:
+        -o-transition: all 0.2s;
+        transition: all 0.2s;
+	
 	outline: none;
 
 	width: 213px;
@@ -270,10 +285,12 @@ input[type="file"] {
 	text: none;
 
 	cursor: pointer;
+	
 	-webkit-user-select: none;
-        	-moz-user-select: none;
-            		-o-user-select: none;
-                		user-select: none;
+	-ms-user-select: none;
+        -moz-user-select: none;
+        -o-user-select: none;
+        user-select: none;
 
 	padding: 0px;
 	margin: 8px;
@@ -287,14 +304,19 @@ input[type="file"]::-webkit-file-upload-button {
 	border-radius: 2px;
 
 	cursor: pointer;
+	
 	-webkit-user-select: none;
-        	-moz-user-select: none;
-            		-o-user-select: none;
-                		user-select: none;
+	-ms-user-select: none;
+        -moz-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+	
 	-webkit-transition: all 0.2s;
-        	-moz-transition: all 0.2s;
-            		-o-transition: all 0.2s;
-                		transition: all 0.2s;
+        -moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s;
+	
 	outline: none;
 
 	min-width: 64px;
@@ -307,9 +329,10 @@ input[type="file"]::-webkit-file-upload-button:hover {
 }
 input[type="file"]::-webkit-file-upload-button:active {
 	-webkit-transform: scale(0.96);
-        	-moz-transform: scale(0.96);
-            		-o-transform: scale(0.96);
-                		transform: scale(0.96);
+        -moz-transform: scale(0.96);
+	-ms-transform: scale(0.96);
+        -o-transform: scale(0.96);
+        transform: scale(0.96);
 }
 input[type="range"] {
 	cursor: pointer;
@@ -323,20 +346,25 @@ img {
 }
 .btn {
 	cursor: pointer;
+	
 	-webkit-user-select: none;
-        	-moz-user-select: none;
-            		-o-user-select: none;
-                		user-select: none;
+	-ms-user-select: none;
+        -moz-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+	
 	-webkit-transition: all 0.2s;
-        	-moz-transition: all 0.2s;
-            		-o-transition: all 0.2s;
-                		transition: all 0.2s;
+        -moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s;
 }
 .btn:active {
-	-webkit-transform: scale(0.92);
-        	-moz-transform: scale(0.92);
-            		-o-transform: scale(0.92);
-                		transform: scale(0.92);
+	-webkit-transform: scale(0.96);
+        -moz-transform: scale(0.96);
+	-ms-transform: scale(0.96);
+        -o-transform: scale(0.96);
+        transform: scale(0.96);
 }
 audio {
 	border-radius: 2px; 
