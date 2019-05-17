@@ -6,30 +6,34 @@
  **/
 
 body {
-	font-family: Arial;
-	font-size: 16px;
-	text-align: center;
+	margin: 0px;
 
 	color: rgb(64, 64, 64);
 	background-color: #F1F1F1;
 	
-	margin: 0px;
+	font-family: Arial;
+	font-size: 16px;
+	text-align: center;
 }
 h1, h2, h3, h4, h5, h6 {
 	margin: 8px;
 }
 p {
-	text-align: justify;
 	margin: 16px 8px;
+	
+	text-align: justify;
 }
 a {
-	text-decoration: none;
 	color: currentColor;
+	
+	text-decoration: none;
+	
 	cursor: pointer;
 }
 .link {
-	text-decoration: underline;
        	color: #00F;
+	
+	text-decoration: underline;
 }
 label {
 	padding: 8px 8px 8px 0px;
@@ -45,97 +49,96 @@ label {
 
 
 header {
-	font-size: 1.6em;
+	padding: 8px;
 
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
-
-	padding: 8px;
+	
+	font-size: 1.6em;
 }
 nav {
-	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.24);
-
 	padding: 0px;
+	
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.24);
 }
 nav a {
 	display: inline-block;
-
-	user-select: none;
-
 	padding: 8px 16px;
 	margin: 0px;
+
+	-webkit-user-select: none;
+	-ms-user-select: none;
+        -moz-user-select: none;
+        -o-user-select: none;
+        user-select: none;
 }
 content {
 	display: inline-block;
-	
-	grid-area: content;
-
 	padding: 8px;
 }
 .card {
 	display: inline-block;
+	padding: 8px;
+	margin: 8px;
 
 	color: #444;
 	background-color: #FFF;
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
 	border-radius: 2px;
-
-	padding: 8px;
-	margin: 8px;
 }
 .ghost-card {
 	display: inline-block;
-
 	padding: 8px;
 	margin: 8px;
 }
 footer {
+	padding: 8px;
+	
 	color: #FFF;
 	background-color: #222;
 	box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.24);
-
-	padding: 8px;
 }
 ol {
-	font-weight: bold;
-	text-align: left;
-
 	padding: 8px 0px;
 	padding-inline-start: 32px;
 	margin: -8px;
+	
+	font-weight: bold;
+	text-align: left;
 }
 ol li {
 	padding-left: 0px;
 }
 ul {
-	font-weight: bold;
-	text-align: left;
-	list-style: none;
-
 	padding: 8px 0px;
 	margin: -8px;
+	
+	list-style: none;
+	
+	font-weight: bold;
+	text-align: left;
 }
 li {
+	padding: 8px 16px;
+	
 	-webkit-transition: all 0.2s;
 	-moz-transition: all 0.2s;
 	-ms-transition: all 0.2s;
 	-o-transition: all 0.2s;
 	transition: all 0.2s;
-
-	padding: 8px 16px;
 }
 table {
 	display: inline-block;
+	padding: -8px;
+	margin: 8px;
 
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
 	border-radius: 2px;
 	border-collapse: collapse;
-
-	padding: -8px;
-	margin: 8px;
 }
 th, td {
-	border: 1px solid #888;
 	padding: 8px;
+	
+	border: 1px solid #888;
 }
 canvas {
 	margin-bottom: -4px;
@@ -151,15 +154,14 @@ canvas {
 
 
 button, input[type="submit"] {
-	font-size: 14px;
-	font-weight: bold;
-	letter-spacing: 0.08rem;
-
+	min-width: 56px;
+	height: 36px;
+	padding: 0px 16px;
+	margin: 8px;
+	
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
 	border: none;
 	border-radius: 2px;
-
-	cursor: pointer;
 	
 	-webkit-user-select: none;
 	-ms-user-select: none;
@@ -173,33 +175,33 @@ button, input[type="submit"] {
         -o-transition: all 0.2s;
         transition: all 0.2s;
 	
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 0.08rem;
+	
+	cursor: pointer;
 	outline: none;
-
-	min-width: 56px;
-	height: 36px;
-	padding: 0px 16px;
-	margin: 8px;
 }
 button:active, input[type="submit"]:active {
+	box-shadow: none;
+	
 	-webkit-transform: scale(0.96);
         -moz-transform: scale(0.96);
 	-ms-transform: scale(0.96);
         -o-transform: scale(0.96);
         transform: scale(0.96);
-	
-	box-shadow: none;
 }
 button img {
 	margin-bottom: 2px;
 }
 .fab {
-	font-size: 24px;
-	font-weight: normal;
-
-	border-radius: 50%;
-
 	width: 56px;
 	height: 56px;
+	
+	border-radius: 50%;
+	
+	font-size: 24px;
+	font-weight: normal;
 }
 .flat {
 	color: currentColor;
@@ -214,8 +216,10 @@ input[type="number"],
 input[type="email"],
 input[type="password"],
 input[type="date"] {
-	font-size: 16px;
-
+	width: 213px;
+	padding: 4px 0px;
+	margin: 8px;
+	
 	color: currentColor;
 	background-color: transparent;
 	border: none;
@@ -228,11 +232,9 @@ input[type="date"] {
         -o-transition: all 0.2s;
         transition: all 0.2s;
 	
+	font-size: 16px;
+	
 	outline: none;
-
-	width: 213px;
-	padding: 4px 0px;
-	margin: 8px;
 }
 input[type="text"]:focus,
 input[type="number"]:focus,
@@ -242,10 +244,10 @@ input[type="text"]:focus {
 	border-bottom: 2px solid currentColor;
 }
 textarea {
-	font-family: Arial;
-	font-size: 16px;
-	font-weight: bold;
-
+	width: 213px;
+	padding: 4px 0px;
+	margin: 8px;
+	
 	color: currentColor;
 	background-color: transparent;
 	border: none;
@@ -258,11 +260,11 @@ textarea {
         -o-transition: all 0.2s;
         transition: all 0.2s;
 	
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: bold;
+	
 	outline: none;
-
-	width: 213px;
-	padding: 4px 0px;
-	margin: 8px;
 }
 textarea:focus {
 	border-bottom: 2px solid currentColor;
@@ -272,38 +274,39 @@ textarea:focus {
    	opacity: 0.8;
 }
 input[type="checkbox"], input[type="radio"] {
-	box-shadow: none;
-
-	cursor: pointer;
-
 	width: 16px;
 	height: 16px;
 	margin: 8px 8px 8px 0px;
-}
-input[type="file"] {
-	font-size: 0px;
-	text: none;
+	
+	box-shadow: none;
 
 	cursor: pointer;
+}
+input[type="file"] {
+	padding: 0px;
+	margin: 8px;
 	
 	-webkit-user-select: none;
 	-ms-user-select: none;
         -moz-user-select: none;
         -o-user-select: none;
         user-select: none;
-
-	padding: 0px;
-	margin: 8px;
+	
+	font-size: 0px;
+	text: none;
+	
+	cursor: pointer;
 }
 input[type="file"]::-webkit-file-upload-button {
-	font-size: 16px;
-
+	min-width: 64px;
+	height: 36px;
+	padding: 0px 16px;
+	margin: 0px;
+	
 	color: #444;
 	background-color: #FFF;
 	border: none;
 	border-radius: 2px;
-
-	cursor: pointer;
 	
 	-webkit-user-select: none;
 	-ms-user-select: none;
@@ -317,12 +320,10 @@ input[type="file"]::-webkit-file-upload-button {
         -o-transition: all 0.2s;
         transition: all 0.2s;
 	
+	font-size: 16px;
+	
+	cursor: pointer;
 	outline: none;
-
-	min-width: 64px;
-	height: 36px;
-	padding: 0px 16px;
-	margin: 0px;
 }
 input[type="file"]::-webkit-file-upload-button:hover {
 	background-color: #CCC;
@@ -335,18 +336,16 @@ input[type="file"]::-webkit-file-upload-button:active {
         transform: scale(0.96);
 }
 input[type="range"] {
-	cursor: pointer;
-	
 	width: auto;
 	height: 32px;
 	margin: 8px;
+	
+	cursor: pointer;
 }
 img {
 	vertical-align: middle;
 }
 .btn {
-	cursor: pointer;
-	
 	-webkit-user-select: none;
 	-ms-user-select: none;
         -moz-user-select: none;
@@ -358,6 +357,8 @@ img {
 	-ms-transition: all 0.2s;
         -o-transition: all 0.2s;
         transition: all 0.2s;
+	
+	cursor: pointer;
 }
 .btn:active {
 	-webkit-transform: scale(0.96);
@@ -367,9 +368,10 @@ img {
         transform: scale(0.96);
 }
 audio {
+	margin: 8px;
+	
 	border-radius: 2px; 
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
-	margin: 8px;
 }
 
 
