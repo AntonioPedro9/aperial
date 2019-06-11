@@ -28,7 +28,7 @@ a {
 	cursor: pointer;
 }
 .link {
-    color: #00F;
+    color: currentColor;
 	text-decoration: underline;
 }
 label {
