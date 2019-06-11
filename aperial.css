@@ -20,19 +20,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 p {
 	margin: 16px 8px;
-	
 	text-align: justify;
 }
 a {
 	color: currentColor;
-	
 	text-decoration: none;
-	
 	cursor: pointer;
 }
 .link {
-       	color: #00F;
-	
+    color: #00F;
 	text-decoration: underline;
 }
 label {
@@ -50,26 +46,26 @@ label {
 
 header {
 	padding: 8px;
-
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
-	
-	font-size: 1.6em;
+}
+header * {
+	display: inline-block;
+}
+header h1 {
+	font-size: 2.4em;
+}
+header nav {
+	box-shadow: none;
 }
 nav {
-	padding: 0px;
-	
-	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.24);
+	padding: 8px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
 }
 nav a {
-	display: inline-block;
-	padding: 8px 16px;
-	margin: 0px;
-
-	-webkit-user-select: none;
-	-ms-user-select: none;
-        -moz-user-select: none;
-        -o-user-select: none;
-        user-select: none;
+	padding: 0px 16px;
+}
+nav a:hover {
+	text-decoration: underline;
 }
 main {
 	display: inline-block;
@@ -84,17 +80,11 @@ main {
 	background-color: #FFF;
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
 	border-radius: 2px;
-}
-.ghost-card {
-	display: inline-block;
-	padding: 8px;
-	margin: 8px;
+
+	text-align: left;
 }
 footer {
 	padding: 8px;
-	
-	color: #FFF;
-	background-color: #222;
 	box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.24);
 }
 ol {
@@ -119,25 +109,17 @@ ul {
 }
 li {
 	padding: 8px 16px;
-	
-	-webkit-transition: all 0.2s;
-	-moz-transition: all 0.2s;
-	-ms-transition: all 0.2s;
-	-o-transition: all 0.2s;
-	transition: all 0.2s;
 }
 table {
 	display: inline-block;
 	padding: -8px;
 	margin: 8px;
 
-	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
 	border-radius: 2px;
 	border-collapse: collapse;
 }
 th, td {
 	padding: 8px;
-	
 	border: 1px solid #888;
 }
 canvas {
@@ -203,11 +185,6 @@ button img {
 	font-size: 24px;
 	font-weight: normal;
 }
-.flat {
-	color: currentColor;
-	background-color: transparent;
-	box-shadow: none;
-}
 form {
 	font-weight: bold;
 }
@@ -216,7 +193,7 @@ input[type="number"],
 input[type="email"],
 input[type="password"],
 input[type="date"] {
-	width: 213px;
+	width: 214px;
 	padding: 4px 0px;
 	margin: 8px;
 	
@@ -241,10 +218,10 @@ input[type="number"]:focus,
 input[type="email"]:focus,
 input[type="password"]:focus,
 input[type="text"]:focus {
-	border-bottom: 2px solid currentColor;
+	border-bottom: 2px solid rgb(103, 58, 183);
 }
 textarea {
-	width: 213px;
+	width: 214px;
 	padding: 4px 0px;
 	margin: 8px;
 	
@@ -256,7 +233,7 @@ textarea {
 
 	-webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
-	-ms-transition all 0.2s:
+	-ms-transition: all 0.2s;
     -o-transition: all 0.2s;
     transition: all 0.2s;
 	
@@ -267,7 +244,7 @@ textarea {
 	outline: none;
 }
 textarea:focus {
-	border-bottom: 2px solid currentColor;
+	border-bottom: 2px solid rgb(103, 58, 183);
 }
 ::-webkit-input-placeholder {
 	color: currentColor;
@@ -276,7 +253,7 @@ textarea:focus {
 input[type="checkbox"], input[type="radio"] {
 	width: 16px;
 	height: 16px;
-	margin: 8px 8px 8px 0px;
+	margin: 0px 8px 0px 0px;
 	
 	box-shadow: none;
 
@@ -293,9 +270,11 @@ input[type="file"] {
     user-select: none;
 	
 	font-size: 0px;
+	letter-spacing: 0.08rem;
 	text: none;
 	
 	cursor: pointer;
+	outline: none;
 }
 input[type="file"]::-webkit-file-upload-button {
 	min-width: 64px;
@@ -321,6 +300,7 @@ input[type="file"]::-webkit-file-upload-button {
     transition: all 0.2s;
 	
 	font-size: 16px;
+	font-weight: bold;
 	
 	cursor: pointer;
 	outline: none;
@@ -344,28 +324,6 @@ input[type="range"] {
 }
 img {
 	vertical-align: middle;
-}
-.btn {
-	-webkit-user-select: none;
-	-ms-user-select: none;
-    -moz-user-select: none;
-    -o-user-select: none;
-    user-select: none;
-	
-	-webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-	-ms-transition: all 0.2s;
-    -o-transition: all 0.2s;
-    transition: all 0.2s;
-	
-	cursor: pointer;
-}
-.btn:active {
-	-webkit-transform: scale(0.96);
-    -moz-transform: scale(0.96);
-	-ms-transform: scale(0.96);
-   	-o-transform: scale(0.96);
-    transform: scale(0.96);
 }
 audio {
 	margin: 8px;
