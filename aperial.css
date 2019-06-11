@@ -30,7 +30,10 @@ a {
 }
 .link {
     color: currentColor;
-	text-decoration: underline;
+	border-bottom: 2px solid rgba(103, 58, 183, 0.5);
+}
+.link:hover {
+	background-color: rgba(103, 58, 183, 0.5);
 }
 label {
 	padding: 8px 8px 8px 0px;
