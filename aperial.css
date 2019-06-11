@@ -189,6 +189,28 @@ button img {
 	font-size: 24px;
 	font-weight: normal;
 }
+.img-btn {
+	-webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -ms-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s;
+
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        -moz-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+
+        cursor: pointer;
+}
+.img-btn:active {
+        -webkit-transform: scale(0.96);
+        -moz-transform: scale(0.96);
+        -ms-transform: scale(0.96);
+        -o-transform: scale(0.96);
+	transform: scale(0.96);
+}
 form {
 	font-weight: bold;
 }
