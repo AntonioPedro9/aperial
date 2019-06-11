@@ -190,6 +190,11 @@ button img {
 	font-weight: normal;
 }
 .img-btn {
+	padding: 8px;
+	margin: 8px;
+	
+	border-radius: 50%;
+	
 	-webkit-transition: all 0.2s;
         -moz-transition: all 0.2s;
         -ms-transition: all 0.2s;
