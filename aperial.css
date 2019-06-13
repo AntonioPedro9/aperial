@@ -6,15 +6,30 @@
  * All Rights Reserved
  **/
 
+/**
+ * CSS properties is grouped by:
+ * 
+ * element {
+ *     [size and position]
+ *
+ *     [appearance and color]
+ *
+ *     [text and font]
+ *
+ *     [other]
+ * }
+ *
+ **/
+
 body {
 	margin: 0px;
 
 	color: rgb(64, 64, 64);
 	background-color: #F1F1F1;
 	
+	text-align: center;
 	font-family: Arial;
 	font-size: 16px;
-	text-align: center;
 }
 h1, h2, h3, h4, h5, h6 {
 	margin: 8px;
@@ -32,19 +47,12 @@ a {
     color: currentColor;
 	border-bottom: 2px solid rgba(103, 58, 183, 0.5);
 }
-.link:hover {
-	background-color: rgba(103, 58, 183, 0.5);
-}
+	.link:hover {
+		background-color: rgba(103, 58, 183, 0.5);
+	}
 label {
 	padding: 8px 8px 8px 0px;
 }
-
-
-
-
-
-
-
 
 
 
@@ -52,25 +60,22 @@ header {
 	padding: 8px;
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
 }
-header * {
-	display: inline-block;
-}
-header h1 {
-	font-size: 2.8em;
-}
-header nav {
-	box-shadow: none;
-}
+	header * {
+		display: inline-block;
+	}
+	header nav {
+		box-shadow: none;
+	}
 nav {
 	padding: 8px;
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
 }
-nav a {
-	padding: 0px 16px;
-}
-nav a:hover {
-	text-decoration: underline;
-}
+	nav a {
+		padding: 0px 16px;
+	}
+		nav a:hover {
+			text-decoration: underline;
+		}
 main {
 	display: inline-block;
 	padding: 8px;
@@ -96,20 +101,20 @@ ol {
 	padding-inline-start: 32px;
 	margin: -8px;
 	
-	font-weight: bold;
 	text-align: left;
+	font-weight: bold;
 }
-ol li {
-	padding-left: 0px;
-}
+	ol li {
+		padding-left: 0px;
+	}
 ul {
 	padding: 8px 0px;
 	margin: -8px;
 	
 	list-style: none;
 	
-	font-weight: bold;
 	text-align: left;
+	font-weight: bold;
 }
 li {
 	padding: 8px 16px;
@@ -126,16 +131,6 @@ th, td {
 	padding: 8px;
 	border: 1px solid #888;
 }
-canvas {
-	margin-bottom: -4px;
-}
-
-
-
-
-
-
-
 
 
 
@@ -148,73 +143,73 @@ button, input[type="submit"] {
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
 	border: none;
 	border-radius: 2px;
-	
-	-webkit-user-select: none;
-	-ms-user-select: none;
- 	-moz-user-select: none;
-    -o-user-select: none;
-    user-select: none;
-	
-	-webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-	-ms-transition: all 0.2s;
-    -o-transition: all 0.2s;
-    transition: all 0.2s;
+	outline: none;
 	
 	font-size: 14px;
 	font-weight: bold;
 	letter-spacing: 0.08rem;
 	
 	cursor: pointer;
-	outline: none;
+
+	-webkit-user-select: none;
+	-ms-user-select: none;
+ 	-moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+
+	-webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
 }
-button:active, input[type="submit"]:active {
-	box-shadow: none;
-	
-	-webkit-transform: scale(0.96);
-    -moz-transform: scale(0.96);
-	-ms-transform: scale(0.96);
-    -o-transform: scale(0.96);
-    transform: scale(0.96);
-}
-button img {
-	margin-bottom: 2px;
-}
-.fab {
-	width: 56px;
-	height: 56px;
-	
-	border-radius: 50%;
-	
-	font-size: 24px;
-	font-weight: normal;
-}
+	button:active, input[type="submit"]:active {
+		box-shadow: none;
+		
+		-webkit-transform: scale(0.96);
+	    -moz-transform: scale(0.96);
+		-ms-transform: scale(0.96);
+	    -o-transform: scale(0.96);
+	    transform: scale(0.96);
+	}
+	button img {
+		margin-bottom: 2px;
+	}
+	.fab {
+		width: 56px;
+		height: 56px;
+		
+		border-radius: 50%;
+		
+		font-size: 24px;
+		font-weight: normal;
+	}
 .img-btn {
 	padding: 8px;
 	
 	border-radius: 50%;
-	
-	-webkit-transition: all 0.2s;
-        -moz-transition: all 0.2s;
-        -ms-transition: all 0.2s;
-        -o-transition: all 0.2s;
-        transition: all 0.2s;
 
-        -webkit-user-select: none;
-        -ms-user-select: none;
-        -moz-user-select: none;
-        -o-user-select: none;
-        user-select: none;
+    cursor: pointer;
 
-        cursor: pointer;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
 }
-.img-btn:active {
-        -webkit-transform: scale(0.96);
-        -moz-transform: scale(0.96);
-        -ms-transform: scale(0.96);
-        -o-transform: scale(0.96);
-	transform: scale(0.96);
-}
+	.img-btn:active {
+	    -webkit-transform: scale(0.96);
+	    -moz-transform: scale(0.96);
+	    -ms-transform: scale(0.96);
+	    -o-transform: scale(0.96);
+		transform: scale(0.96);
+	}
 form {
 	font-weight: bold;
 }
@@ -232,24 +227,23 @@ input[type="date"] {
 	border: none;
 	border-bottom: 1px solid currentColor;
 	border-radius: 0px;
+	outline: none;
+	
+	font-size: 16px;
 
 	-webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
 	-ms-transition: all 0.2s;
     -o-transition: all 0.2s;
     transition: all 0.2s;
-	
-	font-size: 16px;
-	
-	outline: none;
 }
-input[type="text"]:focus,
-input[type="number"]:focus,
-input[type="email"]:focus,
-input[type="password"]:focus,
-input[type="text"]:focus {
-	border-bottom: 2px solid rgb(103, 58, 183);
-}
+	input[type="text"]:focus,
+	input[type="number"]:focus,
+	input[type="email"]:focus,
+	input[type="password"]:focus,
+	input[type="text"]:focus {
+		border-bottom: 2px solid rgb(103, 58, 183);
+	}
 textarea {
 	width: 214px;
 	padding: 4px 0px;
@@ -260,22 +254,21 @@ textarea {
 	border: none;
 	border-bottom: 1px solid currentColor;
 	border-radius: 0px;
+	outline: none;
+	
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: bold;
 
 	-webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
 	-ms-transition: all 0.2s;
     -o-transition: all 0.2s;
     transition: all 0.2s;
-	
-	font-family: Arial;
-	font-size: 16px;
-	font-weight: bold;
-	
-	outline: none;
 }
-textarea:focus {
-	border-bottom: 2px solid rgb(103, 58, 183);
-}
+	textarea:focus {
+		border-bottom: 2px solid rgb(103, 58, 183);
+	}
 ::-webkit-input-placeholder {
 	color: currentColor;
    	opacity: 0.8;
@@ -292,59 +285,60 @@ input[type="checkbox"], input[type="radio"] {
 input[type="file"] {
 	padding: 0px;
 	margin: 8px;
+
+	outline: none;
 	
-	-webkit-user-select: none;
-	-ms-user-select: none;
-    -moz-user-select: none;
-    -o-user-select: none;
-    user-select: none;
-	
+	text: none;
 	font-size: 0px;
 	letter-spacing: 0.08rem;
-	text: none;
 	
 	cursor: pointer;
-	outline: none;
-}
-input[type="file"]::-webkit-file-upload-button {
-	min-width: 64px;
-	height: 36px;
-	padding: 0px 16px;
-	margin: 0px;
-	
-	color: #444;
-	background-color: #FFF;
-	border: none;
-	border-radius: 2px;
-	
+
 	-webkit-user-select: none;
 	-ms-user-select: none;
     -moz-user-select: none;
     -o-user-select: none;
     user-select: none;
-	
-	-webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-	-ms-transition: all 0.2s;
-    -o-transition: all 0.2s;
-    transition: all 0.2s;
-	
-	font-size: 16px;
-	font-weight: bold;
-	
-	cursor: pointer;
-	outline: none;
 }
-input[type="file"]::-webkit-file-upload-button:hover {
-	background-color: #CCC;
-}
-input[type="file"]::-webkit-file-upload-button:active {
-	-webkit-transform: scale(0.96);
-    -moz-transform: scale(0.96);
-	-ms-transform: scale(0.96);
-    -o-transform: scale(0.96);
-    transform: scale(0.96);
-}
+	input[type="file"]::-webkit-file-upload-button {
+		min-width: 64px;
+		height: 36px;
+		padding: 0px 16px;
+		margin: 0px;
+		
+		color: #444;
+		background-color: #FFF;
+		border: none;
+		border-radius: 2px;
+		outline: none;
+		
+		font-size: 16px;
+		font-weight: bold;
+		
+		cursor: pointer;
+
+		-webkit-user-select: none;
+		-ms-user-select: none;
+	    -moz-user-select: none;
+	    -o-user-select: none;
+	    user-select: none;
+
+	    -webkit-transition: all 0.2s;
+	    -moz-transition: all 0.2s;
+		-ms-transition: all 0.2s;
+	    -o-transition: all 0.2s;
+	    transition: all 0.2s;
+	}
+	input[type="file"]::-webkit-file-upload-button:hover {
+		background-color: #CCC;
+	}
+	input[type="file"]::-webkit-file-upload-button:active {
+		-webkit-transform: scale(0.96);
+	    -moz-transform: scale(0.96);
+		-ms-transform: scale(0.96);
+	    -o-transform: scale(0.96);
+	    transform: scale(0.96);
+	}
 input[type="range"] {
 	width: auto;
 	height: 32px;
@@ -361,13 +355,9 @@ audio {
 	border-radius: 2px; 
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
 }
-
-
-
-
-
-
-
+canvas {
+	margin-bottom: -4px;
+}
 
 
 
@@ -414,13 +404,6 @@ audio {
 
 
 
-
-
-
-
-
-
-
 .text-dark {
 	color: rgb(64, 64, 64);
 }
@@ -451,15 +434,6 @@ audio {
 .text-pink {
 	color: rgb(233, 30, 99);
 }
-
-
-
-
-
-
-
-
-
 
 
 
