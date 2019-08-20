@@ -153,23 +153,23 @@ button, input[type="submit"] {
 	-webkit-user-select: none;
 	-ms-user-select: none;
  	-moz-user-select: none;
-    -o-user-select: none;
-    user-select: none;
+    	-o-user-select: none;
+    	user-select: none;
 
 	-webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
+    	-moz-transition: all 0.2s;
 	-ms-transition: all 0.2s;
-    -o-transition: all 0.2s;
-    transition: all 0.2s;
+    	-o-transition: all 0.2s;
+    	transition: all 0.2s;
 }
 	button:active, input[type="submit"]:active {
 		box-shadow: none;
 		
 		-webkit-transform: scale(0.96);
-	    -moz-transform: scale(0.96);
+	    	-moz-transform: scale(0.96);
 		-ms-transform: scale(0.96);
-	    -o-transform: scale(0.96);
-	    transform: scale(0.96);
+	    	-o-transform: scale(0.96);
+	    	transform: scale(0.96);
 	}
 	button img {
 		margin-bottom: 2px;
@@ -188,25 +188,25 @@ button, input[type="submit"] {
 	
 	border-radius: 50%;
 
-    cursor: pointer;
+    	cursor: pointer;
 
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    -moz-user-select: none;
-    -o-user-select: none;
-    user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
 
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-    -ms-transition: all 0.2s;
-    -o-transition: all 0.2s;
-    transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
 }
 	.img-btn:active {
-	    -webkit-transform: scale(0.96);
-	    -moz-transform: scale(0.96);
-	    -ms-transform: scale(0.96);
-	    -o-transform: scale(0.96);
+		-webkit-transform: scale(0.96);
+	    	-moz-transform: scale(0.96);
+	    	-ms-transform: scale(0.96);
+	    	-o-transform: scale(0.96);
 		transform: scale(0.96);
 	}
 form {
@@ -231,10 +231,10 @@ input[type="date"] {
 	font-size: 16px;
 
 	-webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
+	-moz-transition: all 0.2s;
 	-ms-transition: all 0.2s;
-    -o-transition: all 0.2s;
-    transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
 }
 	input[type="text"]:focus,
 	input[type="number"]:focus,
@@ -259,10 +259,10 @@ textarea {
 	font-size: 16px;
 
 	-webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
+	-moz-transition: all 0.2s;
 	-ms-transition: all 0.2s;
-    -o-transition: all 0.2s;
-    transition: all 0.2s;
+    	-o-transition: all 0.2s;
+    	transition: all 0.2s;
 }
 	textarea:focus {
 		border-bottom: 2px solid rgb(103, 58, 183);
@@ -294,9 +294,9 @@ input[type="file"] {
 
 	-webkit-user-select: none;
 	-ms-user-select: none;
-    -moz-user-select: none;
-    -o-user-select: none;
-    user-select: none;
+    	-moz-user-select: none;
+    	-o-user-select: none;
+    	user-select: none;
 }
 	input[type="file"]::-webkit-file-upload-button {
 		min-width: 64px;
@@ -317,25 +317,25 @@ input[type="file"] {
 
 		-webkit-user-select: none;
 		-ms-user-select: none;
-	    -moz-user-select: none;
-	    -o-user-select: none;
-	    user-select: none;
+	    	-moz-user-select: none;
+	    	-o-user-select: none;
+	    	user-select: none;
 
-	    -webkit-transition: all 0.2s;
-	    -moz-transition: all 0.2s;
+	    	-webkit-transition: all 0.2s;
+	    	-moz-transition: all 0.2s;
 		-ms-transition: all 0.2s;
-	    -o-transition: all 0.2s;
-	    transition: all 0.2s;
+	    	-o-transition: all 0.2s;
+	    	transition: all 0.2s;
 	}
 	input[type="file"]::-webkit-file-upload-button:hover {
 		background-color: #CCC;
 	}
 	input[type="file"]::-webkit-file-upload-button:active {
 		-webkit-transform: scale(0.96);
-	    -moz-transform: scale(0.96);
+	    	-moz-transform: scale(0.96);
 		-ms-transform: scale(0.96);
-	    -o-transform: scale(0.96);
-	    transform: scale(0.96);
+	    	-o-transform: scale(0.96);
+	    	transform: scale(0.96);
 	}
 input[type="range"] {
 	width: auto;
@@ -444,6 +444,6 @@ canvas {
 ====    []  []  []        ====
 ====    []  []  []        ====
 ====                      ====
-====      Copyright.       ====
+====      Copyright       ====
 ==============================
 ==============================
