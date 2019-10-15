@@ -58,26 +58,7 @@ header {
 	padding: 8px;
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
 }
-	header * {
-		display: inline-block;
-	}
-	header nav {
-		box-shadow: none;
-	}
-nav {
-	padding: 8px;
-	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
-}
-	nav a {
-		padding: 0px 16px;
-	}
-		nav a:hover {
-			text-decoration: underline;
-		}
-main {
-	display: inline-block;
-	padding: 8px;
-}
+
 .card {
 	display: inline-block;
 	padding: 8px;
