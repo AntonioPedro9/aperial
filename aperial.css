@@ -75,6 +75,7 @@ header {
 footer {
 	padding: 8px;
 	box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.24);
+	text-align: center;
 }
 ol {
 	padding: 8px 0px;
