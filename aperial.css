@@ -109,7 +109,7 @@ th, td {
 
 
 
-button, input[type="submit"] {
+button, input[type="submit"], input[type="button"] {
 	min-width: 56px;
 	height: 36px;
 	padding: 0px 16px;
@@ -139,7 +139,7 @@ button, input[type="submit"] {
 	-o-transition: all 0.2s;
 	transition: all 0.2s;
 }
-	button:active, input[type="submit"]:active {
+	button:active, input[type="submit"]:active, input[type="button"]:active {
 		box-shadow: none;
 		
 		-webkit-transform: scale(0.96);
