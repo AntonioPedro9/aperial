@@ -382,7 +382,7 @@ canvas {
 	background-color: rgb(244, 67, 54);
 }
 .theme-pink {
-	color: #444;
+	color: #FFF;
 	background-color: rgb(233,30,99);
 }
 .theme-purple {
@@ -390,7 +390,7 @@ canvas {
 	background-color: rgb(156, 39, 176);
 }
 .theme-deep-purple {
-	color: #444;
+	color: #FFF;
 	background-color: rgb(103, 58, 183);
 }
 .theme-indigo {
@@ -398,15 +398,15 @@ canvas {
 	background-color: rgb(63, 81, 181);
 }
 .theme-blue {
-	color: #444;
+	color: #FFF;
 	background-color: rgb(33, 150, 243);
 }
 .theme-light-blue {
-	color: #FFF;
+	color: #444;
 	background-color: rgb(3, 169, 244);
 }
 .theme-cyan {
-	color: #FFF;
+	color: #444;
 	background-color: rgb(0, 188, 212);
 }
 .theme-teal {
@@ -422,19 +422,19 @@ canvas {
 	background-color: rgb(139, 195, 74);
 }
 .theme-lime {
-	color: #FFF;
+	color: #444;
 	background-color: rgb(205, 220, 57);
 }
 .theme-yellow {
-	color: #FFF;
+	color: #444;
 	background-color: rgb(255, 235, 59);
 }
 .theme-amber {
-	color: #FFF;
+	color: #444;
 	background-color: rgb(255, 193, 7);
 }
 .theme-orange {
-	color: #FFF;
+	color: #444;
 	background-color: rgb(255, 152, 0);
 }
 .theme-deep-orange {
