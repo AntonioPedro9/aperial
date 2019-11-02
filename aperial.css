@@ -377,70 +377,81 @@ canvas {
 	color: #444;
 	background-color: rgb(255, 255, 255);
 }
+.theme-red {
+	color: #FFF;
+	background-color: rgb(244, 67, 54);
+}
+.theme-pink {
+	color: #444;
+	background-color: rgb(233,30,99);
+}
+.theme-purple {
+	color: #FFF;
+	background-color: rgb(156, 39, 176);
+}
+.theme-deep-purple {
+	color: #444;
+	background-color: rgb(103, 58, 183);
+}
+.theme-indigo {
+	color: #FFF;
+	background-color: rgb(63, 81, 181);
+}
+.theme-blue {
+	color: #444;
+	background-color: rgb(33, 150, 243);
+}
+.theme-light-blue {
+	color: #FFF;
+	background-color: rgb(3, 169, 244);
+}
+.theme-cyan {
+	color: #FFF;
+	background-color: rgb(0, 188, 212);
+}
 .theme-teal {
 	color: #FFF;
 	background-color: rgb(0, 150, 136);
 }
+.theme-green {
+	color: #FFF;
+	background-color: rgb(76, 175, 80);
+}
+.theme-light-green {
+	color: #FFF;
+	background-color: rgb(139, 195, 74);
+}
 .theme-lime {
-	color: #444;
+	color: #FFF;
 	background-color: rgb(205, 220, 57);
 }
-.theme-blue {
+.theme-yellow {
 	color: #FFF;
-	background-color: rgb(33, 150, 243);
+	background-color: rgb(255, 235, 59);
 }
-.theme-cyan {
-	color: #444;
-	background-color: rgb(24, 255, 255);
+.theme-amber {
+	color: #FFF;
+	background-color: rgb(255, 193, 7);
 }
 .theme-orange {
 	color: #FFF;
+	background-color: rgb(255, 152, 0);
+}
+.theme-deep-orange {
+	color: #FFF;
 	background-color: rgb(255, 87, 34);
 }
-.theme-yellow {
-	color: #444;
-	background-color: rgb(255, 235, 59);
-}
-.theme-purple {
+.theme-brown {
 	color: #FFF;
-	background-color: rgb(103, 58, 183);
+	background-color: rgb(121, 85, 72);
 }
-.theme-pink {
+.theme-gray {
 	color: #FFF;
-	background-color: rgb(233, 30, 99);
+	background-color: rgb(158, 158, 158);
 }
-
-
-
-.text-dark {
-	color: rgb(64, 64, 64);
-}
-.text-light {
-	color: rgb(255, 255, 255);
-}
-.text-teal {
-	color: rgb(0, 150, 136);
-}
-.text-lime {
-	color: rgb(205, 220, 57);
-}
-.text-blue {
-	color: rgb(33, 150, 243);
-}
-.text-cyan {
-	color: rgb(24, 255, 255);
-}
-.text-orange {
-	color: rgb(255, 87, 34);
-}
-.text-yellow {
-	color: rgb(255, 235, 59);
-}
-.text-purple {
-	color: rgb(103, 58, 183);
-}
-.text-pink {
-	color: rgb(233, 30, 99);
+.theme-blue-gray {
+	color: #FFF;
+	background-color: rgb(96, 125, 139);
 }
 
 /*
