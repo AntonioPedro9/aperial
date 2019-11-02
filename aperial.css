@@ -25,37 +25,37 @@ body {
 	font-size: 16px;
 }
 h1 {
-	margin: 2.8rem 0 1.68rem 0;
+	margin: 2.8rem 8px 1.68rem 8px;
 	font-size: 4.2rem;
 	font-weight: 400;
 	line-height: 110%;
 }
 h2 {
-	margin: 2.373rem 0 1.424rem 0;
+	margin: 2.3733333333rem 8px 1.424rem 8px;
 	font-size: 3.56rem;
 	line-height: 110%;
 	font-weight: 400;
 }
 h3 {
-	margin: 1.947rem 0 1.168rem 0;
+	margin: 1.9466666667rem 8px 1.168rem 8px;
 	font-size: 2.92rem;
 	line-height: 110%;
 	font-weight: 400;
 }
 h4 {
-	margin: 1.52rem 0 .912rem 0;
+	margin: 1.52rem 8px .912rem 8px;
 	font-size: 2.28rem;
 	line-height: 110%;
 	font-weight: 400;
 }
 h5 {
-	margin: 1.093rem 0 .656rem 0;
+	margin: 1.0933333333rem 8px .656rem 8px;
 	font-size: 1.64rem;
 	line-height: 110%;
 	font-weight: 400;
 }
 h6 {
-	margin: .77rem 0 .46rem 0;
+	margin: .7666666667rem 8px .46rem 8px;
 	font-size: 1.15rem;
 	line-height: 110%;
 	font-weight: 400;
