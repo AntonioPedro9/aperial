@@ -193,7 +193,7 @@ button, input[type="submit"], input[type="button"] {
 		font-weight: normal;
 	}
 .icon-button {
-	padding: 8px;
+	margin: 8px;
 	
 	border-radius: 50%;
 
@@ -211,6 +211,9 @@ button, input[type="submit"], input[type="button"] {
 	-o-transition: all 0.2s;
 	transition: all 0.2s;
 }
+	.icon-button:hover {
+		background-color: rgba(128, 128, 128, 0.5);
+	}
 	.icon-button:active {
 		-webkit-transform: scale(0.96);
 		-moz-transform: scale(0.96);
