@@ -216,7 +216,7 @@ button, input[type="submit"], input[type="button"] {
 	transition: all 0.2s;
 }
 	.icon-button:hover {
-		background-color: rgba(128, 128, 128, 0.5);
+		background-color: rgba(192, 192, 192, 0.5);
 	}
 	.icon-button:active {
 		-webkit-transform: scale(0.96);
