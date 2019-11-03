@@ -195,12 +195,7 @@ button, input[type="submit"], input[type="button"] {
 			margin: 0px;
 		}
 .icon-button {
-	width: 48px;
-	height: 48px;
 	margin: 8px;
-	display: inline-flex;
-	justify-content: center;
-	align-items: center;
 	
 	border-radius: 50%;
 
@@ -211,9 +206,19 @@ button, input[type="submit"], input[type="button"] {
 	-moz-user-select: none;
 	-o-user-select: none;
 	user-select: none;
+
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
 }
-	.icon-button:hover {
-		background-color: rgba(192, 192, 192, 0.5);
+	.icon-button:active {
+		-webkit-transform: scale(0.96);
+		-moz-transform: scale(0.96);
+		-ms-transform: scale(0.96);
+		-o-transform: scale(0.96);
+		transform: scale(0.96);
 	}
 input[type="text"],
 input[type="number"],
