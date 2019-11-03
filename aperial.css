@@ -192,7 +192,7 @@ button, input[type="submit"], input[type="button"] {
 		font-size: 24px;
 		font-weight: normal;
 	}
-.img-btn {
+.icon-button {
 	padding: 8px;
 	
 	border-radius: 50%;
@@ -211,7 +211,7 @@ button, input[type="submit"], input[type="button"] {
 	-o-transition: all 0.2s;
 	transition: all 0.2s;
 }
-	.img-btn:active {
+	.icon-button:active {
 		-webkit-transform: scale(0.96);
 		-moz-transform: scale(0.96);
 		-ms-transform: scale(0.96);
