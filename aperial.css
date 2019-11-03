@@ -177,8 +177,8 @@ button, input[type="submit"], input[type="button"] {
 		-o-transform: scale(0.96);
 		transform: scale(0.96);
 	}
-	button img {
-		margin-bottom: 2px;
+	button i {
+		margin: 0px 8px 0px -8px;
 	}
 	.fab {
 		width: 56px;
@@ -192,7 +192,12 @@ button, input[type="submit"], input[type="button"] {
 		font-size: 24px;
 		font-weight: normal;
 	}
+		.fab i {
+			margin: 0px;
+		}
 .icon-button {
+	width: 48px;
+	height: 48px;
 	margin: 8px;
 	
 	border-radius: 50%;
