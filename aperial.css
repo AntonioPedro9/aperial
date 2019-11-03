@@ -76,7 +76,7 @@ header {
 	padding: 8px;
 	margin: 8px;
 
-	color: #222;
+	color: #444;
 	background-color: #FFF;
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
 	border-radius: 2px;
@@ -316,7 +316,7 @@ input[type="file"] {
 		padding: 0px 16px;
 		margin: 0px;
 		
-		color: #222;
+		color: #444;
 		background-color: #FFF;
 		border: none;
 		border-radius: 2px;
@@ -373,7 +373,7 @@ canvas {
 	background-color: rgb(64, 64, 64);
 }
 .theme-light {
-	color: #222;
+	color: #444;
 	background-color: rgb(255, 255, 255);
 }
 .theme-red {
@@ -401,11 +401,11 @@ canvas {
 	background-color: rgb(33, 150, 243);
 }
 .theme-light-blue {
-	color: #222;
+	color: #444;
 	background-color: rgb(3, 169, 244);
 }
 .theme-cyan {
-	color: #222;
+	color: #444;
 	background-color: rgb(24, 255, 255);
 }
 .theme-teal {
@@ -421,23 +421,23 @@ canvas {
 	background-color: rgb(139, 195, 74);
 }
 .theme-lime {
-	color: #222;
+	color: #444;
 	background-color: rgb(205, 220, 57);
 }
 .theme-yellow {
-	color: #222;
+	color: #444;
 	background-color: rgb(255, 235, 59);
 }
 .theme-amber {
-	color: #222;
+	color: #444;
 	background-color: rgb(255, 193, 7);
 }
 .theme-orange {
-	color: #222;
+	color: #444;
 	background-color: rgb(255, 152, 0);
 }
 .theme-deep-orange {
-	color: #222;
+	color: #444;
 	background-color: rgb(255, 87, 34);
 }
 .theme-brown {
