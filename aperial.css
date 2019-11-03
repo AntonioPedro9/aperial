@@ -120,6 +120,8 @@ ul {
 	text-align: left;
 }
 li {
+	display: flex;
+	align-items: center;
 	padding: 8px 16px;
 }
 table {
