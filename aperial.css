@@ -176,7 +176,7 @@ button, input[type="submit"], input[type="button"] {
 		-o-transform: scale(0.96);
 		transform: scale(0.96);
 	}
-	button i {
+	button .material-icons {
 		margin: 0px 8px 0px -8px;
 	}
 	.fab {
@@ -191,7 +191,7 @@ button, input[type="submit"], input[type="button"] {
 		font-size: 24px;
 		font-weight: normal;
 	}
-		.fab i {
+		.fab .material-icons {
 			margin: 0px;
 		}
 .icon-button {
