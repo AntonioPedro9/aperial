@@ -124,6 +124,9 @@ li {
 	align-items: center;
 	padding: 8px 16px;
 }
+	li .material-icons {
+		margin-right: 4px;
+	}
 table {
 	display: inline-block;
 	padding: -8px;
