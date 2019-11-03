@@ -92,7 +92,7 @@ header {
 	border-radius: 2px 2px 0px 0px;
 }
 .card-bottom {
-	margin-top: 8px;
+	margin-top: 16px;
 	display: flex;
 	align-items: center;
 }
