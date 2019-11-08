@@ -100,6 +100,7 @@ header {
 }
 footer {
 	padding: 8px;
+	margin: 8px 0px 0px 0px;
 	box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.24);
 	text-align: center;
 }
