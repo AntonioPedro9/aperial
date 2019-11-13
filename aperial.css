@@ -133,7 +133,7 @@ li {
 		margin-right: 4px;
 	}
 table {
-    	margin: 8px;
+    	margin: -8px;
     	border-collapse: collapse;
 }
 table, th, td {
@@ -143,8 +143,8 @@ tr {
     	border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
 td, th {
-    	padding: 16px 16px 16px 0px;
-    	text-align: left;
+    	padding: 16px;
+    	text-align: center;
 }
 
 
