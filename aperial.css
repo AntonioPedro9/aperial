@@ -111,12 +111,14 @@ ul {
 	
 	text-align: left;
 }
+  ul li {
+    display: flex;
+    align-items: center;
+  }
 li {
-	display: flex;
-	align-items: center;
-	padding: 8px 16px;
+  padding: 8px 16px;
 }
-	li .material-icons {
+li img, li .material-icons {
 		margin-right: 4px;
 	}
 table {
