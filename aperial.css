@@ -131,7 +131,7 @@ table, th, td {
   border: none;
 }
 tr {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  border-bottom: 1px solid #888;
 }
 td, th {
   padding: 16px;
