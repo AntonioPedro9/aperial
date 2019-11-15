@@ -69,7 +69,6 @@ a {
 
 header {
 	padding: 8px;
-	margin: 0px 0px 8px 0px;
 	display: flex;
 	align-itens: center;
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
@@ -91,7 +90,6 @@ main {
 }
 footer {
 	padding: 8px;
-	margin: 8px 0px 0px 0px;
 	box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.24);
 	text-align: center;
 }
