@@ -267,7 +267,7 @@ input[type="reset"] {
   input[type="datetime-local"]:focus,
   input[type="search"]:focus,
   input[type="reset"]:focus {
-    border-bottom: 2px solid rgb(103, 58, 183);
+    border-bottom: 2px solid rgb(33, 150, 243);
   }
 ::-webkit-input-placeholder {
   color: currentColor;
