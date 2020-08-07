@@ -18,61 +18,76 @@
  * }
  **/
 
-body {
-  width: 100vw;
-  min-height: 100vh;
-  margin: 0px;
-  
-  background-color: rgb(241, 241, 241);
-  
-  font-family: Arial;
-  font-size: 16px;
-  
-  overflow-x: hidden;
+:root {
+  font-size: 60%;
 }
-h1, h2, h3, h4, h5, h6 {
-  margin: 0.65em 8px 0.325em 8px;
-  font-weight: 400;
-  line-height: 110%;
+@media (min-width: 700px) {
+  :root {
+    font-size: 62.5%;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100vh;
+  background-color: #f1f1f1;
+  font-family: Arial;
+}
+h1, h2, h3, h4, h5, h6, p, span, a {
+  margin: 8px;
 }
 h1 {
-  font-size: 4.2em;
+  font-size: 9.6rem;
+  font-weight: lighter;
+  letter-spacing: -0.15rem;
 }
 h2 {
-  font-size: 3.56em;
+  font-size: 6.0rem;
+  font-weight: lighter;
+  letter-spacing: -0.05rem;
 }
 h3 {
-  font-size: 2.92em;
+  font-size: 4.8rem;
+  font-weight: normal;
+  letter-spacing: 0rem;
 }
 h4 {
-  font-size: 2.28em;
+  font-size: 3.4rem;
+  font-weight: normal;
+  letter-spacing: 0.025rem;
 }
 h5 {
-  font-size: 1.64em;
+  font-size: 2.4rem;
+  font-weight: normal;
+  letter-spacing: 0rem;
 }
 h6 {
-  font-size: 1.15em;
+  font-size: 2.0rem;
+  font-weight: 500;
+  letter-spacing: 0.015rem;
 }
-p {
-  margin: 8px;
+p, span {
+  font-size: 1.6rem;
+  font-weight: normal;
+  letter-spacing: 0.05rem;
   text-align: justify;
 }
 a {
-  color: currentColor;
+  font-size: 1.6rem;
+  font-weight: normal;
+  letter-spacing: 0.05rem;
   text-decoration: none;
   cursor: pointer;
 }
-.link {
-  text-decoration: underline;
-}
-  .link:hover {
-    background-color: rgba(192, 192, 192, 0.5);
-  }
 
 
 
 header {
   padding: 8px;
+  width: 100vw;
   display: flex;
   align-itens: center;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
@@ -86,7 +101,7 @@ main {
   margin: 8px;
 
   color: #444;
-  background-color: #FFF;
+  background-color: #fff;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
   border-radius: 2px;
 
@@ -95,14 +110,15 @@ main {
 footer {
   padding: 8px;
   box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.24);
-  text-align: center;
 }
 ol {
+  font-size: 1.6rem;
+  font-weight: normal;
+  letter-spacing: 0.05rem;
+  
   padding: 8px 0px;
   padding-inline-start: 36px;
   margin: -8px;
-  
-  text-align: left;
 }
   ol li {
     padding-left: 0px;
@@ -113,7 +129,9 @@ ul {
   
   list-style: none;
   
-  text-align: left;
+  font-size: 1.6rem;
+  font-weight: normal;
+  letter-spacing: 0.05rem;
 }
   ul li {
     display: flex;
@@ -139,12 +157,14 @@ td, th {
 
 
 
-button, input[type="submit"], input[type="button"] {
+button, 
+input[type="button"], 
+input[type="submit"] {
   min-width: 56px;
   height: 36px;
   padding: 0px 16px;
   margin: 8px;
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   z-index: 1;
@@ -154,75 +174,40 @@ button, input[type="submit"], input[type="button"] {
   border-radius: 2px;
   outline: none;
   
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 1.25px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.125rem;
   
   cursor: pointer;
-
-  -webkit-user-select: none;
-  -ms-user-select: none;
-   -moz-user-select: none;
-  -o-user-select: none;
   user-select: none;
-
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  -o-transition: all 0.2s;
   transition: all 0.2s;
 }
   button:active, input[type="submit"]:active, input[type="button"]:active {
     box-shadow: none;
-    
-    -webkit-transform: scale(0.96);
-    -moz-transform: scale(0.96);
-    -ms-transform: scale(0.96);
-    -o-transform: scale(0.96);
     transform: scale(0.96);
-  }
-  button .material-icons {
-    margin: 0px 8px 0px -8px;
   }
   .fab {
     width: 56px;
     height: 56px;
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     
     border-radius: 50%;
     
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: normal;
   }
-    .fab .material-icons {
-      margin: 0px;
-    }
 .icon-button {
   margin: 8px;
   
   border-radius: 50%;
 
   cursor: pointer;
-
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  -moz-user-select: none;
-  -o-user-select: none;
   user-select: none;
-
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  -o-transition: all 0.2s;
   transition: all 0.2s;
 }
   .icon-button:active {
-    -webkit-transform: scale(0.96);
-    -moz-transform: scale(0.96);
-    -ms-transform: scale(0.96);
-    -o-transform: scale(0.96);
     transform: scale(0.96);
   }
 input[type="text"],
@@ -249,12 +234,8 @@ input[type="reset"] {
   border-radius: 0px;
   outline: none;
   
-  font-size: 16px;
+  font-size: 1.6rem;
 
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  -o-transition: all 0.2s;
   transition: all 0.2s;
 }
   input[type="text"]:focus,
@@ -270,7 +251,7 @@ input[type="reset"] {
   input[type="datetime-local"]:focus,
   input[type="search"]:focus,
   input[type="reset"]:focus {
-    border-bottom: 2px solid rgb(33, 150, 243);
+    border-bottom: 2px solid currentColor;
   }
 ::-webkit-input-placeholder {
   color: currentColor;
@@ -291,14 +272,10 @@ textarea {
   font-family: Arial;
   font-size: 16px;
 
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  -o-transition: all 0.2s;
   transition: all 0.2s;
 }
   textarea:focus {
-    border-bottom: 2px solid rgb(103, 58, 183);
+    border-bottom: 2px solid currentColor;
   }
 input[type="checkbox"], input[type="radio"] {
   width: 16px;
@@ -313,16 +290,12 @@ input[type="file"] {
   padding: 0px;
   margin: 8px;
 
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
   border-radius: 2px;
   
   font-size: 0px;
   
   cursor: pointer;
-
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  -moz-user-select: none;
-  -o-user-select: none;
   user-select: none;
 }
 input[type="file"]::-webkit-file-upload-button {
@@ -332,17 +305,19 @@ input[type="file"]::-webkit-file-upload-button {
   margin: 0px;
   
   color: #444;
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   border: none;
   border-radius: 2px;
   outline: none;
   
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 600;
-  letter-spacing: 1.25px;
+  letter-spacing: 0.125rem;
+
+  cursor: pointer;
 }
   input[type="file"]::-webkit-file-upload-button:hover {
-    background-color: #CCC;
+    background-color: #ccc;
   }
 input[type="range"] {
   margin: 8px;
@@ -356,9 +331,6 @@ audio {
   
   border-radius: 2px; 
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
-}
-canvas {
-  margin: 0px;
 }
 
 
