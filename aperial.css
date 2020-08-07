@@ -37,7 +37,7 @@ html, body {
   font-family: Arial;
 }
 h1, h2, h3, h4, h5, h6, p, span, a {
-  margin: 8px;
+  margin: 0.8rem;
 }
 h1 {
   font-size: 9.6rem;
@@ -86,46 +86,46 @@ a {
 
 
 header {
-  padding: 8px;
+  padding: 0.8rem;
   width: 100vw;
   display: flex;
   align-itens: center;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
   text-align: center;
 }
 main {
-  padding: 8px;
+  padding: 0.8rem;
 }
 .card {
-  padding: 8px;
-  margin: 8px;
+  padding: 0.8rem;
+  margin: 0.8rem;
 
   color: #444;
   background-color: #fff;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
   border-radius: 2px;
 
   text-align: left;
 }
 footer {
-  padding: 8px;
-  box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.24);
+  padding: 0.8rem;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.24);
 }
 ol {
   font-size: 1.6rem;
   font-weight: normal;
   letter-spacing: 0.05rem;
   
-  padding: 8px 0px;
-  padding-inline-start: 36px;
-  margin: -8px;
+  padding: 0.8rem 0rem;
+  padding-inline-start: 3.6rem;
+  margin: -0.8rem;
 }
   ol li {
-    padding-left: 0px;
+    padding-left: 0rem;
   }
 ul {
-  padding: 8px 0px;
-  margin: -8px;
+  padding: 0.8rem 0rem;
+  margin: -0.8rem;
   
   list-style: none;
   
@@ -138,10 +138,10 @@ ul {
     align-items: center;
   }
 li {
-  padding: 8px 16px;
+  padding: 0.8rem 1.6rem;
 }
 table {
-  margin: -8px;
+  margin: -0.8rem;
   border-collapse: collapse;
 }
 table, th, td {
@@ -151,7 +151,7 @@ tr {
   border-bottom: 1px solid #888;
 }
 td, th {
-  padding: 16px;
+  padding: 1.6rem;
   text-align: center;
 }
 
@@ -162,14 +162,14 @@ input[type="button"],
 input[type="submit"] {
   min-width: 56px;
   height: 36px;
-  padding: 0px 16px;
-  margin: 8px;
+  padding: 0rem 1.6rem;
+  margin: 0.8rem;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 1;
   
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
   border: none;
   border-radius: 2px;
   outline: none;
@@ -199,7 +199,7 @@ input[type="submit"] {
     font-weight: normal;
   }
 .icon-button {
-  margin: 8px;
+  margin: 0.8rem;
   
   border-radius: 50%;
 
@@ -224,14 +224,14 @@ input[type="datetime-local"],
 input[type="search"],
 input[type="reset"] {
   width: 192px;
-  padding: 4px 0px;
-  margin: 8px;
+  padding: 0.4rem 0rem;
+  margin: 0.8rem;
   
   color: currentColor;
   background-color: transparent;
   border: none;
   border-bottom: 1px solid currentColor;
-  border-radius: 0px;
+  border-radius: 0;
   outline: none;
   
   font-size: 1.6rem;
@@ -259,18 +259,18 @@ input[type="reset"] {
 }
 textarea {
   width: 192px;
-  padding: 4px 0px;
-  margin: 8px;
+  padding: 0.4rem 0rem;
+  margin: 0.8rem;
   
   color: currentColor;
   background-color: transparent;
   border: none;
   border-bottom: 1px solid currentColor;
-  border-radius: 0px;
+  border-radius: 0;
   outline: none;
   
   font-family: Arial;
-  font-size: 16px;
+  font-size: 1.6rem;
 
   transition: all 0.2s;
 }
@@ -280,20 +280,20 @@ textarea {
 input[type="checkbox"], input[type="radio"] {
   width: 16px;
   height: 16px;
-  margin: 0px 8px 0px 0px;
+  margin: 0rem 0.8rem 0rem 0rem;
   
   box-shadow: none;
 
   cursor: pointer;
 }
 input[type="file"] {
-  padding: 0px;
-  margin: 8px;
+  padding: 0;
+  margin: 0.8rem;
 
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
   border-radius: 2px;
   
-  font-size: 0px;
+  font-size: 0;
   
   cursor: pointer;
   user-select: none;
@@ -301,8 +301,8 @@ input[type="file"] {
 input[type="file"]::-webkit-file-upload-button {
   min-width: 64px;
   height: 36px;
-  padding: 0px 16px;
-  margin: 0px;
+  padding: 0 1.6rem;
+  margin: 0;
   
   color: #444;
   background-color: #f1f1f1;
@@ -320,17 +320,17 @@ input[type="file"]::-webkit-file-upload-button {
     background-color: #ccc;
   }
 input[type="range"] {
-  margin: 8px;
+  margin: 0.8rem;
   cursor: pointer;
 }
 img {
   vertical-align: middle;
 }
 audio {
-  margin: 8px;
+  margin: 0.8rem;
   
   border-radius: 2px; 
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
 }
 
 
