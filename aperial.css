@@ -69,11 +69,16 @@ h6 {
   font-weight: 500;
   letter-spacing: 0.015rem;
 }
-p, span {
+p {
   font-size: 1.6rem;
   font-weight: normal;
   letter-spacing: 0.05rem;
   text-align: justify;
+}
+span {
+  font-size: 1.4rem;
+  font-weight: normal;
+  letter-spacing: 0.025rem;
 }
 a {
   font-size: 1.6rem;
