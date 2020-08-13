@@ -102,6 +102,7 @@ header {
 }
 main {
   padding: 0.8rem;
+  max-width: 100vw;
 }
 .card {
   padding: 0.8rem;
@@ -160,6 +161,9 @@ tr {
 td, th {
   padding: 1.6rem;
   text-align: center;
+}
+hr {
+  margin: 0.8rem;
 }
 
 
@@ -231,7 +235,7 @@ input[type="week"],
 input[type="datetime-local"],
 input[type="search"],
 input[type="reset"] {
-  width: 192px;
+  width: 200px;
   padding: 0.4rem 0rem;
   margin: 0.8rem;
   
@@ -345,85 +349,85 @@ audio {
 
 .theme-dark {
   color: #FFF;
-  background-color: rgb(64, 64, 64);
+  background-color: #444;
 }
 .theme-light {
   color: #444;
-  background-color: rgb(255, 255, 255);
+  background-color: #fff;
 }
 .theme-red {
   color: #FFF;
-  background-color: rgb(244, 67, 54);
+  background-color: #f44336;
 }
 .theme-pink {
   color: #FFF;
-  background-color: rgb(233,30,99);
+  background-color: #e91e63;
 }
 .theme-purple {
   color: #FFF;
-  background-color: rgb(156, 39, 176);
+  background-color: #9c27b0;
 }
 .theme-deep-purple {
   color: #FFF;
-  background-color: rgb(103, 58, 183);
+  background-color: #673ab7;
 }
 .theme-indigo {
   color: #FFF;
-  background-color: rgb(63, 81, 181);
+  background-color: #3f51b5;
 }
 .theme-blue {
   color: #FFF;
-  background-color: rgb(33, 150, 243);
+  background-color: #2196f3;
 }
 .theme-light-blue {
   color: #444;
-  background-color: rgb(3, 169, 244);
+  background-color: #03a9f4;
 }
 .theme-cyan {
   color: #444;
-  background-color: rgb(24, 255, 255);
+  background-color: #18ffff;
 }
 .theme-teal {
   color: #FFF;
-  background-color: rgb(0, 150, 136);
+  background-color: #009688;
 }
 .theme-green {
   color: #FFF;
-  background-color: rgb(76, 175, 80);
+  background-color: #4caf50;
 }
 .theme-light-green {
   color: #FFF;
-  background-color: rgb(139, 195, 74);
+  background-color: #8bc34a;
 }
 .theme-lime {
   color: #444;
-  background-color: rgb(205, 220, 57);
+  background-color: #cddc39;
 }
 .theme-yellow {
   color: #444;
-  background-color: rgb(255, 235, 59);
+  background-color: #ffeb3b;
 }
 .theme-amber {
   color: #444;
-  background-color: rgb(255, 193, 7);
+  background-color: #ffc107;
 }
 .theme-orange {
-  color: #444;
-  background-color: rgb(255, 152, 0);
+  color: #fff;
+  background-color: #ff9800;
 }
 .theme-deep-orange {
-  color: #444;
-  background-color: rgb(255, 87, 34);
+  color: #FFF;
+  background-color: #ff5722;
 }
 .theme-brown {
   color: #FFF;
-  background-color: rgb(121, 85, 72);
+  background-color: #795548;
 }
 .theme-gray {
   color: #FFF;
-  background-color: rgb(158, 158, 158);
+  background-color: #9e9e9e;
 }
 .theme-blue-gray {
   color: #FFF;
-  background-color: rgb(96, 125, 139);
+  background-color: #607d8b;
 }
