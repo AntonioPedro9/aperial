@@ -205,7 +205,7 @@ input[type="reset"] {
   
   font-size: 1.6rem;
 
-  transition: all 0.2s;
+  transition: all 0.8s;
 }
 input[type="text"]:focus,
 input[type="number"]:focus,
@@ -237,7 +237,7 @@ textarea {
   font-family: Arial;
   font-size: 1.6rem;
 
-  transition: all 0.2s;
+  transition: all 0.8s;
 }
 textarea:focus {
   border-bottom: 2px solid currentColor;
