@@ -98,14 +98,14 @@ label {
 
 header {
   padding: 0.8rem;
-  width: 100vw;
+  width: 100%;
   display: flex;
   align-items: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
 }
 main {
   padding: 0.8rem;
-  max-width: 100vw;
+  max-width: 100%;
 
   display: flex;
   justify-content: center;
@@ -133,6 +133,7 @@ ul li {
 }
 footer {
   padding: 0.8rem;
+  width: 100%;
   box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.24);
 }
 
