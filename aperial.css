@@ -194,6 +194,7 @@ input[type="datetime-local"],
 input[type="search"],
 input[type="reset"] {
   width: 200px;
+  height: 28px;
   padding: 0.4rem 0rem;
   margin: 0.8rem;
   
