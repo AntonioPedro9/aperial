@@ -18,7 +18,7 @@
  * }
  **/
 
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 
 :root {
   font-size: 60%;
@@ -33,12 +33,19 @@
   margin: 0;
   box-sizing: border-box;
 }
-html, body {
+html,
+body {
   min-height: 100vh;
   background-color: #f1f1f1;
-  font-family: 'Roboto', Arial;
+  font-family: "Roboto", Arial;
 }
-h1, h2, h3, h4, h5, h6, p, span {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   padding: 0.8rem;
 }
 h1 {
@@ -47,7 +54,7 @@ h1 {
   letter-spacing: -0.15rem;
 }
 h2 {
-  font-size: 6.0rem;
+  font-size: 6rem;
   font-weight: lighter;
   letter-spacing: -0.05rem;
 }
@@ -67,7 +74,7 @@ h5 {
   letter-spacing: 0rem;
 }
 h6 {
-  font-size: 2.0rem;
+  font-size: 2rem;
   font-weight: 500;
   letter-spacing: 0.015rem;
 }
@@ -93,8 +100,6 @@ label {
   font-weight: normal;
   letter-spacing: 0.05rem;
 }
-
-
 
 header {
   padding: 0.8rem;
@@ -137,10 +142,8 @@ footer {
   box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.24);
 }
 
-
-
-button, 
-input[type="button"], 
+button,
+input[type="button"],
 input[type="submit"] {
   min-width: 56px;
   height: 36px;
@@ -150,21 +153,23 @@ input[type="submit"] {
   justify-content: center;
   align-items: center;
   z-index: 1;
-  
+
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
   border: none;
   border-radius: 2px;
   outline: none;
-  
+
   font-size: 1.4rem;
   font-weight: medium;
   letter-spacing: 0.125rem;
-  
+
   cursor: pointer;
   user-select: none;
   transition: all 0.2s;
 }
-button:active, input[type="submit"]:active, input[type="button"]:active {
+button:active,
+input[type="submit"]:active,
+input[type="button"]:active {
   box-shadow: none;
   transform: scale(0.96);
 }
@@ -174,9 +179,9 @@ button:active, input[type="submit"]:active, input[type="button"]:active {
   display: flex;
   justify-content: center;
   align-items: center;
-    
+
   border-radius: 50%;
-   
+
   font-size: 2.4rem;
   font-weight: normal;
 }
@@ -197,14 +202,14 @@ input[type="reset"] {
   height: 28px;
   padding: 0.4rem 0rem;
   margin: 0.8rem;
-  
+
   color: currentColor;
   background-color: transparent;
   border: none;
   border-bottom: 1px solid currentColor;
   border-radius: 0;
   outline: none;
-  
+
   font-size: 1.6rem;
 }
 input[type="text"]:focus,
@@ -221,20 +226,20 @@ input[type="datetime-local"]:focus,
 input[type="search"]:focus,
 input[type="reset"]:focus {
   border-bottom: 2px solid currentColor;
-  transition: all 0.8s;
+  transition: all 0.2s;
 }
 textarea {
   width: 200px;
   padding: 0.4rem 0rem;
   margin: 0.8rem;
-  
+
   color: currentColor;
   background-color: transparent;
   border: none;
   border-bottom: 1px solid currentColor;
   border-radius: 0;
   outline: none;
-  
+
   font-family: Arial;
   font-size: 1.6rem;
 
@@ -247,11 +252,12 @@ textarea:focus {
   color: currentColor;
   opacity: 0.8;
 }
-input[type="checkbox"], input[type="radio"] {
+input[type="checkbox"],
+input[type="radio"] {
   width: 16px;
   height: 16px;
   margin-right: 0.8rem;
-  
+
   box-shadow: none;
 
   cursor: pointer;
@@ -262,9 +268,9 @@ input[type="file"] {
 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
   border-radius: 2px;
-  
+
   font-size: 0;
-  
+
   cursor: pointer;
   user-select: none;
 }
@@ -273,13 +279,13 @@ input[type="file"]::-webkit-file-upload-button {
   height: 36px;
   padding: 0 1.6rem;
   margin: 0;
-  
+
   color: #444;
   background-color: #f1f1f1;
   border: none;
   border-radius: 2px;
   outline: none;
-  
+
   font-size: 1.4rem;
   font-weight: 600;
   letter-spacing: 0.125rem;
@@ -299,12 +305,10 @@ img {
 }
 audio {
   margin: 0.8rem;
-  
-  border-radius: 2px; 
+
+  border-radius: 2px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
 }
-
-
 
 .theme-dark {
   color: #fff;
