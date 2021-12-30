@@ -100,7 +100,6 @@ label {
   font-weight: normal;
   letter-spacing: 0.05rem;
 }
-
 header {
   padding: 0.8rem;
   width: 100%;
@@ -141,7 +140,6 @@ footer {
   width: 100%;
   box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.24);
 }
-
 button,
 input[type="button"],
 input[type="submit"] {
@@ -198,6 +196,7 @@ input[type="week"],
 input[type="datetime-local"],
 input[type="search"],
 input[type="reset"] {
+  width: 200px;
   height: 28px;
   padding: 0.4rem 0rem;
   margin: 0.8rem;
@@ -228,6 +227,7 @@ input[type="reset"]:focus {
   transition: all 0.2s;
 }
 textarea {
+  width: 200px;
   padding: 0.4rem 0rem;
   margin: 0.8rem;
 
@@ -307,7 +307,6 @@ audio {
   border-radius: 2px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
 }
-
 .theme-dark {
   color: #fff;
   background-color: #444;
