@@ -52,4 +52,3 @@ All theme options:
 
 - https://antoniopedro9.github.io/fiat-uno-election/client/index.html
 - https://github.com/AntonioPedro9/scrum-notes
-- https://antoniopedro9.github.io/weather-app/index.html
