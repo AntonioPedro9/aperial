@@ -23,31 +23,72 @@
 :root {
   font-size: 60%;
 }
+
 @media (min-width: 700px) {
   :root {
     font-size: 62.5%;
   }
 }
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
 html,
 body {
   min-height: 100vh;
   background-color: #f1f1f1;
   font-family: "Roboto", Arial;
 }
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+
+/* SPACING */
+
+.m1 {
+  margin: 0.8rem;
+}
+.m2 {
+  margin: 1.6rem;
+}
+
+.mt1 {
+  margin-top: 0.8rem;
+}
+.mt2 {
+  margin-top: 1.6rem;
+}
+
+.mr1 {
+  margin-right: 0.8rem;
+}
+.mr2 {
+  margin-right: 1.6rem;
+}
+
+.mb1 {
+  margin-bottom: 0.8rem;
+}
+.mb2 {
+  margin-bottom: 1.6rem;
+}
+
+.ml1 {
+  margin-left: 0.8rem;
+}
+.ml2 {
+  margin-left: 1.6rem;
+}
+
+.p1 {
   padding: 0.8rem;
 }
+.p2 {
+  padding: 1.6rem;
+}
+
+/* TEXT */
+
 h1 {
   font-size: 9.6rem;
   font-weight: lighter;
@@ -82,68 +123,56 @@ p {
   font-size: 1.6rem;
   font-weight: normal;
   letter-spacing: 0.05rem;
-  text-align: justify;
-}
-span {
-  font-size: 1.4rem;
-  font-weight: normal;
-  letter-spacing: 0.025rem;
 }
 a {
+  color: currentColor;
   font-size: 1.6rem;
   font-weight: normal;
   letter-spacing: 0.05rem;
   text-decoration: none;
 }
 label {
-  margin: 0.8rem;
   display: flex;
   align-items: center;
-
   font-size: 1.6rem;
   font-weight: normal;
   letter-spacing: 0.05rem;
 }
+
+/* LAYOUT */
+
 header {
-  padding: 0.8rem;
   width: 100%;
   display: flex;
   align-items: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
 }
-main {
-  padding: 0.8rem;
-  max-width: 100%;
 
-  display: flex;
-  justify-content: center;
-}
 .card {
-  padding: 0.8rem;
-  margin: 0.8rem;
-
   color: #444;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
   border-radius: 2px;
-
-  text-align: left;
 }
+
 ul {
   font-size: 1.6rem;
   font-weight: normal;
   letter-spacing: 0.05rem;
 }
+
 ul li {
   display: flex;
   align-items: center;
-  padding: 0.8rem;
 }
+
 footer {
-  padding: 0.8rem;
   width: 100%;
   box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.24);
 }
+
+/* COMPONENTS */
+
 button,
 input[type="button"],
 input[type="submit"],
@@ -151,25 +180,22 @@ select {
   min-width: 56px;
   height: 36px;
   padding: 0rem 1.6rem;
-  margin: 0.8rem;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 1;
-
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
   border: none;
   border-radius: 2px;
   outline: none;
-
   font-size: 1.4rem;
   font-weight: medium;
   letter-spacing: 0.125rem;
-
   cursor: pointer;
   user-select: none;
   transition: all 0.2s;
 }
+
 button:active,
 input[type="submit"]:active,
 input[type="button"]:active,
@@ -177,22 +203,23 @@ select:active {
   box-shadow: none;
   transform: scale(0.96);
 }
+
 button .fab {
   width: 56px;
   height: 56px;
   display: flex;
   justify-content: center;
   align-items: center;
-
   border-radius: 50%;
-
   font-size: 2.4rem;
   font-weight: normal;
 }
+
 select option {
   color: #444;
   background-color: #fff;
 }
+
 input[type="text"],
 input[type="number"],
 input[type="email"],
@@ -208,19 +235,16 @@ input[type="search"] {
   width: 200px;
   height: 28px;
   padding: 0.4rem 0rem;
-  margin: 0.8rem;
-
   color: currentColor;
   background-color: transparent;
   border: none;
   border-bottom: 1px solid currentColor;
   border-radius: 0;
   outline: none;
-
   font-size: 1.6rem;
-
   transition: all 0.2s;
 }
+
 input[type="text"]:focus,
 input[type="number"]:focus,
 input[type="email"]:focus,
@@ -235,88 +259,81 @@ input[type="datetime-local"]:focus,
 input[type="search"]:focus {
   border-bottom: 2px solid currentColor;
 }
+
 ::-webkit-input-placeholder {
   color: currentColor;
   opacity: 0.8;
 }
+
 input[type="checkbox"],
 input[type="radio"] {
   width: 16px;
   height: 16px;
-  margin-right: 0.8rem;
-
   box-shadow: none;
-
   cursor: pointer;
 }
-input[type="file"] {
-  padding: 0;
-  margin: 0.8rem;
 
+input[type="file"] {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
   border-radius: 2px;
-
   font-size: 0;
-
   cursor: pointer;
   user-select: none;
 }
+
 input[type="file"]::-webkit-file-upload-button {
-  min-width: 64px;
+  min-width: 56px;
   height: 36px;
   padding: 0 1.6rem;
-  margin: 0;
-
   color: #444;
   background-color: #f1f1f1;
   border: none;
   border-radius: 2px;
   outline: none;
-
   font-size: 1.4rem;
   font-weight: 600;
   letter-spacing: 0.125rem;
-
   cursor: pointer;
-
   transition: all 0.2s;
 }
+
 input[type="file"]::-webkit-file-upload-button:hover {
   background-color: #ccc;
 }
+
 input[type="range"] {
-  margin: 0.8rem;
   width: 200px;
   cursor: pointer;
 }
+
 fieldset {
   border: none;
 }
+
 textarea {
   width: 200px;
   padding: 0.4rem 0rem;
-  margin: 0.8rem;
-
   color: currentColor;
   background-color: transparent;
   border: none;
   border-bottom: 1px solid currentColor;
   border-radius: 0;
   outline: none;
-
   font-size: 1.6rem;
-
   resize: vertical;
 }
+
 img {
   vertical-align: middle;
 }
-audio {
-  margin: 0.8rem;
 
+audio {
   border-radius: 2px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
 }
+
+/* THEMES  */
+
 .theme-dark {
   color: #fff;
   background-color: #444;
