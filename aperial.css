@@ -14,123 +14,113 @@
 
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 
-:root {
-  font-size: 60%;
-}
-
-@media (min-width: 700px) {
-  :root {
-    font-size: 62.5%;
-  }
-}
-
 * {
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
   box-sizing: border-box;
 }
 
-html,
 body {
   min-height: 100vh;
   background-color: #f1f1f1;
   font-family: "Roboto", Arial;
+  font-size: 16px;
 }
 
 /* SPACING */
 
-.m1 { margin: 0.8rem }
-.m2 { margin: 1.6rem }
+.m1 { margin: 8px }
+.m2 { margin: 16px }
 
-.mt1 { margin-top: 0.8rem }
-.mt2 { margin-top: 1.6rem }
+.mt1 { margin-top: 8px }
+.mt2 { margin-top: 16px }
 
-.mr1 { margin-right: 0.8rem }
-.mr2 { margin-right: 1.6rem }
+.mr1 { margin-right: 8px }
+.mr2 { margin-right: 16px }
 
-.mb1 { margin-bottom: 0.8rem }
-.mb2 { margin-bottom: 1.6rem }
+.mb1 { margin-bottom: 8px }
+.mb2 { margin-bottom: 16px }
 
-.ml1 { margin-left: 0.8rem }
-.ml2 { margin-left: 1.6rem }
+.ml1 { margin-left: 8px }
+.ml2 { margin-left: 16px }
 
-.mx1 { margin: 0px 0.8rem }
-.mx2 { margin: 0px 1.6rem }
+.mx1 { margin: 0px 8px }
+.mx2 { margin: 0px 16px }
 
-.my1 { margin: 0.8rem 0px }
-.my2 { margin: 1.6rem 0px }
+.my1 { margin: 8px 0px }
+.my2 { margin: 16px 0px }
 
-.p1 { padding: 0.8rem }
-.p2 { padding: 1.6rem }
+.p1 { padding: 8px }
+.p2 { padding: 16px }
 
-.pt1 { padding-top: 0.8rem }
-.pt2 { padding-top: 1.6rem }
+.pt1 { padding-top: 8px }
+.pt2 { padding-top: 16px }
 
-.pr1 { padding-right: 0.8rem }
-.pr2 { padding-right: 1.6rem }
+.pr1 { padding-right: 8px }
+.pr2 { padding-right: 16px }
 
-.pb1 { padding-bottom: 0.8rem }
-.pb2 { padding-bottom: 1.6rem }
+.pb1 { padding-bottom: 8px }
+.pb2 { padding-bottom: 16px }
 
-.pl1 { padding-left: 0.8rem }
-.pl2 { padding-left: 1.6rem }
+.pl1 { padding-left: 8px }
+.pl2 { padding-left: 16px }
 
-.px1 { padding: 0px 0.8rem }
-.px2 { padding: 0px 1.6rem }
+.px1 { padding: 0px 8px }
+.px2 { padding: 0px 16px }
 
-.py1 { padding: 0.8rem 0px }
-.py2 { padding: 1.6rem 0px }
+.py1 { padding: 8px 0px }
+.py2 { padding: 16px 0px }
 
 /* TEXT */
 
 h1 {
-  font-size: 9.6rem;
+  font-size: 96px;
   font-weight: lighter;
-  letter-spacing: -0.15rem;
+  letter-spacing: -1.5px;
 }
 h2 {
-  font-size: 6rem;
+  font-size: 60px;
   font-weight: lighter;
-  letter-spacing: -0.05rem;
+  letter-spacing: -0.5px;
 }
 h3 {
-  font-size: 4.8rem;
+  font-size: 48px;
   font-weight: normal;
-  letter-spacing: 0rem;
+  letter-spacing: 0px;
 }
 h4 {
-  font-size: 3.4rem;
+  font-size: 34px;
   font-weight: normal;
-  letter-spacing: 0.025rem;
+  letter-spacing: 0.25px;
 }
 h5 {
-  font-size: 2.4rem;
+  font-size: 24px;
   font-weight: normal;
-  letter-spacing: 0rem;
+  letter-spacing: 0px;
 }
 h6 {
-  font-size: 2rem;
-  font-weight: 500;
-  letter-spacing: 0.015rem;
+  font-size: 20px;
+  font-weight: medium;
+  letter-spacing: 0.15px;
 }
 p {
-  font-size: 1.6rem;
+  font-size: 16px;
   font-weight: normal;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.5px;
 }
 a {
   color: currentColor;
-  font-size: 1.6rem;
+  font-size: 16px;
   font-weight: normal;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.5px;
   text-decoration: none;
 }
 label {
   display: flex;
   align-items: center;
-  font-size: 1.6rem;
+  font-size: 16px;
   font-weight: normal;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.5px;
 }
 
 /* LAYOUT */
@@ -139,20 +129,20 @@ header {
   width: 100%;
   display: flex;
   align-items: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
 }
 
 .card {
   color: #444;
   background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
   border-radius: 2px;
 }
 
 ul {
-  font-size: 1.6rem;
+  font-size: 16px;
   font-weight: normal;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.5px;
 }
 
 ul li {
@@ -162,7 +152,7 @@ ul li {
 
 footer {
   width: 100%;
-  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.24);
 }
 
 /* COMPONENTS */
@@ -173,18 +163,18 @@ input[type="submit"],
 select {
   min-width: 56px;
   height: 36px;
-  padding: 0rem 1.6rem;
+  padding: 0px 16px;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 1;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
   border: none;
   border-radius: 2px;
   outline: none;
-  font-size: 1.4rem;
+  font-size: 14px;
   font-weight: medium;
-  letter-spacing: 0.125rem;
+  letter-spacing: 1.25px;
   cursor: pointer;
   user-select: none;
   transition: all 0.2s;
@@ -205,7 +195,7 @@ button.fab {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  font-size: 2.4rem;
+  font-size: 24px;
   font-weight: normal;
 }
 
@@ -228,14 +218,14 @@ input[type="datetime-local"],
 input[type="search"] {
   width: 200px;
   height: 28px;
-  padding: 0.4rem 0rem;
+  padding: 4px 0px;
   color: currentColor;
   background-color: transparent;
   border: none;
   border-bottom: 1px solid currentColor;
-  border-radius: 0;
+  border-radius: 0px;
   outline: none;
-  font-size: 1.6rem;
+  font-size: 16px;
   transition: all 0.2s;
 }
 
@@ -268,9 +258,9 @@ input[type="radio"] {
 }
 
 input[type="file"] {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
   border-radius: 2px;
-  font-size: 0;
+  font-size: 0px;
   cursor: pointer;
   user-select: none;
 }
@@ -278,15 +268,15 @@ input[type="file"] {
 input[type="file"]::-webkit-file-upload-button {
   min-width: 56px;
   height: 36px;
-  padding: 0 1.6rem;
+  padding: 0px 16px;
   color: #444;
   background-color: #f1f1f1;
   border: none;
   border-radius: 2px;
   outline: none;
-  font-size: 1.4rem;
+  font-size: 14px;
   font-weight: 600;
-  letter-spacing: 0.125rem;
+  letter-spacing: 1.25px;
   cursor: pointer;
   transition: all 0.2s;
 }
@@ -306,14 +296,14 @@ fieldset {
 
 textarea {
   width: 200px;
-  padding: 0.4rem 0rem;
+  padding: 4px 0px;
   color: currentColor;
   background-color: transparent;
   border: none;
   border-bottom: 1px solid currentColor;
-  border-radius: 0;
+  border-radius: 0px;
   outline: none;
-  font-size: 1.6rem;
+  font-size: 16px;
   resize: vertical;
 }
 
@@ -323,7 +313,7 @@ img {
 
 audio {
   border-radius: 2px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.24);
 }
 
 /* THEMES  */
