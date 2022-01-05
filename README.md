@@ -21,28 +21,6 @@ Add one of the meta tags on your aplication `<head>` and it is ready.
 - `card`: Turn a div into a card
 - `fab`: Turn a regular button into a FAB button
 
-#### Spacing:
-
-```
-.m1 { margin: 0.8rem }
-.m2 { margin: 1.6rem }
-
-.mt1 { margin-top: 0.8rem }
-.mt2 { margin-top: 1.6rem }
-
-.mr1 { margin-right: 0.8rem }
-.mr2 { margin-right: 1.6rem }
-
-.mb1 { margin-bottom: 0.8rem }
-.mb2 { margin-bottom: 1.6rem }
-
-.ml1 { margin-left: 0.8rem }
-.ml2 { margin-left: 1.6rem }
-
-.p1 { padding: 0.8rem }
-.p2 { padding: 1.6rem }
-```
-
 ## Themes
 
 Example: `<button class="theme-pink">`
@@ -69,6 +47,38 @@ All theme options:
 `theme-brown`
 `theme-gray`
 `theme-blue-gray`
+
+## Spacing
+
+To apply margin and padding to elements the `{property}{sides}{size}` format is used.
+
+#### Property
+
+- **m:** margin
+- **p:** padding
+
+#### Sides
+
+- **t:** top
+- **r:** right
+- **b:** bottom
+- **l:** left
+- **x:** left and right
+- **y:** top and bottom
+
+#### Size
+
+- **1:** 8px
+- **2:** 16px
+
+#### Examples
+
+- `<element class="m2" />` 16px of margin
+- `<element class="mb2"/>` 16px of margin bottom
+- `<element class="my2"/>` 16px of vertical margin
+- `<element class="p1" />` 8px of padding
+- `<element class="pt1"/>` 8px of padding top
+- `<element class="px1"/>` 8px of horizontal padding
 
 ## Showcases
 

@@ -54,8 +54,32 @@ body {
 .ml1 { margin-left: 0.8rem }
 .ml2 { margin-left: 1.6rem }
 
+.mx1 { margin: 0px 0.8rem }
+.mx2 { margin: 0px 1.6rem }
+
+.my1 { margin: 0.8rem 0px }
+.my2 { margin: 1.6rem 0px }
+
 .p1 { padding: 0.8rem }
 .p2 { padding: 1.6rem }
+
+.pt1 { padding-top: 0.8rem }
+.pt2 { padding-top: 1.6rem }
+
+.pr1 { padding-right: 0.8rem }
+.pr2 { padding-right: 1.6rem }
+
+.pb1 { padding-bottom: 0.8rem }
+.pb2 { padding-bottom: 1.6rem }
+
+.pl1 { padding-left: 0.8rem }
+.pl2 { padding-left: 1.6rem }
+
+.px1 { padding: 0px 0.8rem }
+.px2 { padding: 0px 1.6rem }
+
+.py1 { padding: 0.8rem 0px }
+.py2 { padding: 1.6rem 0px }
 
 /* TEXT */
 
