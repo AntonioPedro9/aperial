@@ -96,6 +96,10 @@ a {
   text-decoration: none;
 }
 label {
+  margin: 0.8rem;
+  display: flex;
+  align-items: center;
+
   font-size: 1.6rem;
   font-weight: normal;
   letter-spacing: 0.05rem;
@@ -231,26 +235,6 @@ input[type="datetime-local"]:focus,
 input[type="search"]:focus {
   border-bottom: 2px solid currentColor;
 }
-textarea {
-  width: 200px;
-  padding: 0.4rem 0rem;
-  margin: 0.8rem;
-
-  color: currentColor;
-  background-color: transparent;
-  border: none;
-  border-bottom: 1px solid currentColor;
-  border-radius: 0;
-  outline: none;
-
-  font-family: Arial;
-  font-size: 1.6rem;
-
-  transition: all 0.2s;
-}
-textarea:focus {
-  border-bottom: 2px solid currentColor;
-}
 ::-webkit-input-placeholder {
   color: currentColor;
   opacity: 0.8;
@@ -304,6 +288,25 @@ input[type="range"] {
   margin: 0.8rem;
   width: 200px;
   cursor: pointer;
+}
+fieldset {
+  border: none;
+}
+textarea {
+  width: 200px;
+  padding: 0.4rem 0rem;
+  margin: 0.8rem;
+
+  color: currentColor;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid currentColor;
+  border-radius: 0;
+  outline: none;
+
+  font-size: 1.6rem;
+
+  resize: vertical;
 }
 img {
   vertical-align: middle;
