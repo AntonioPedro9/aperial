@@ -204,7 +204,7 @@ select:active {
   transform: scale(0.96);
 }
 
-button .fab {
+button.fab {
   width: 56px;
   height: 56px;
   display: flex;
