@@ -21,6 +21,28 @@ Add one of the meta tags on your aplication `<head>` and it is ready.
 - `card`: Turn a div into a card
 - `fab`: Turn a regular button into a FAB button
 
+#### Spacing:
+
+```
+.m1 { margin: 0.8rem }
+.m2 { margin: 1.6rem }
+
+.mt1 { margin-top: 0.8rem }
+.mt2 { margin-top: 1.6rem }
+
+.mr1 { margin-right: 0.8rem }
+.mr2 { margin-right: 1.6rem }
+
+.mb1 { margin-bottom: 0.8rem }
+.mb2 { margin-bottom: 1.6rem }
+
+.ml1 { margin-left: 0.8rem }
+.ml2 { margin-left: 1.6rem }
+
+.p1 { padding: 0.8rem }
+.p2 { padding: 1.6rem }
+```
+
 ## Themes
 
 Example: `<button class="theme-pink">`
