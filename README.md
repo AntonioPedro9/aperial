@@ -82,5 +82,5 @@ To apply margin and padding to elements the `{property}{sides}{size}` format is 
 
 ## Showcases
 
-- https://antoniopedro9.github.io/fiat-uno-election/client/index.html
+- https://antoniopedro9.github.io/fiat-uno/src/public
 - https://github.com/AntonioPedro9/scrum-notes
