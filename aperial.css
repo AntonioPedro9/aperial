@@ -152,6 +152,8 @@ ul li {
 
 footer {
   width: 100%;
+  display: flex;
+  align-items: center;
   box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.24);
 }
 
